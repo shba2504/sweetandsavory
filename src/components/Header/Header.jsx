@@ -1,7 +1,9 @@
+import Images from "../../images/images";
+
 const Header = () => {
   return (
     <>
-      <h1>Header</h1>
+      <img src={Images.breakfastspread} alt="breakfast table spread" />
     </>
   );
 };
