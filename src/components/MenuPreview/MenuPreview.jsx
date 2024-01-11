@@ -1,3 +1,6 @@
+import "../MenuPreview/MenuPreview.css";
+import Images from "../../images/images";
+
 const MenuPreview = () => {
   return (
     <>

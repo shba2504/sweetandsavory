@@ -1,0 +1,21 @@
+.container {
+  letter-spacing: 0.2rem;
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.container h4 {
+  font-weight: normal;
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+}
+
+.container p {
+  margin-top: 0.3rem;
+}
+
+header img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
