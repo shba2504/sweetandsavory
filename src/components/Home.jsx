@@ -1,10 +1,17 @@
+import AboutPreview from "./AboutPreview/AboutPreview";
+import Footer from "./Footer/Footer";
+import Header from "./Header/Header";
+import MenuPreview from "./MenuPreview/MenuPreview";
 import Nav from "./Nav/Nav";
 
 const Home = () => {
   return (
     <>
-      <h1>Homepage</h1>
       <Nav />
+      <Header />
+      <MenuPreview />
+      <AboutPreview />
+      <Footer />
     </>
   );
 };
