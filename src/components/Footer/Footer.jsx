@@ -1,7 +1,16 @@
+import "../Footer/Footer.css";
+
 const Footer = () => {
   return (
     <>
-      <h1>Footer</h1>
+      <article>
+        <section>
+          <div>
+            <hr />
+            <h1>Footer</h1>
+          </div>
+        </section>
+      </article>
     </>
   );
 };
