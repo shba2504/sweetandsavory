@@ -1,26 +1,26 @@
 import "../Nav/Nav.css";
 import Images from "../../images/images";
 
-const toggleButton = document.getElementsByClassName("toggle-button")[0];
+/*const toggleButton = document.getElementsByClassName("toggle-button")[0];
 const navbarLinks = document.getElementsByClassName("navbar-links")[0];
 
 toggleButton.addEventListener("click", () => {
   navbarLinks.classList.toggle("active");
-});
+});*/
 
 const Nav = () => {
   return (
     <>
-      <nav class="navbar">
-        <div class="logo">
+      <nav className="navbar">
+        <div className="logo">
           <img src={Images.Logo} alt="half-lemon and restaurant name logo" />
         </div>
-        <a href="#" class="toggle-button">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
+        <a href="#" className="toggle-button">
+          <span className="bar"></span>
+          <span className="bar"></span>
+          <span className="bar"></span>
         </a>
-        <div class="navbar-links">
+        <div className="navbar-links">
           <ul>
             <li>
               <a href="#">Home</a>

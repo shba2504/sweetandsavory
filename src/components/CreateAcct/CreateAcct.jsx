@@ -4,7 +4,7 @@ const CreateAcct = () => {
       <Nav />
       <article>
         <section>
-          <div class="preview">
+          <div className="preview">
             <h1>Create an Account</h1>
             <p>
               Enter your account details below or <a>log in</a>

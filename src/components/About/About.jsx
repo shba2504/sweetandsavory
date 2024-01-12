@@ -7,12 +7,12 @@ const About = () => {
       <Nav />
       <article>
         <section>
-          <div class="preview">
+          <div className="preview">
             <h1>About Us</h1>
             <img src={Images.globe} alt="a half-globe" />
           </div>
           <section>
-            <div class="about">
+            <div className="about">
               <img
                 src={Images.travelfood}
                 alt="plate of pancakes with person eating"
@@ -50,7 +50,7 @@ const About = () => {
             </div>
           </section>
           <section>
-            <div class="bottom">
+            <div className="bottom">
               <img
                 src={Images.germanbreakfast}
                 alt="table spread of traditional German breakfast with eggs and lots of bread"

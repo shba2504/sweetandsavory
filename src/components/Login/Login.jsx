@@ -6,7 +6,7 @@ const Login = () => {
       <Nav />
       <article>
         <section>
-          <div class="preview">
+          <div className="preview">
             <h1>Welcome Back!</h1>
             <p>
               Login below or <a>create an account</a>

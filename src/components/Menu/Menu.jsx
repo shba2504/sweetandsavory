@@ -6,16 +6,16 @@ const Menu = () => {
       <Nav />
       <article>
         <section>
-          <div class="preview">
+          <div className="preview">
             <h1>Menu</h1>
           </div>
-          <div class="slider">
+          <div className="slider">
             <h2>Image Slider of Menu Photos</h2>
           </div>
           <h2>This Week's Specials</h2>
         </section>
         <section>
-          <div class="specials">
+          <div className="specials">
             <h3>Sweet</h3>
             <h3>Savory</h3>
           </div>

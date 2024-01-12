@@ -7,7 +7,7 @@ const Reservations = () => {
       <Nav />
       <article>
         <section>
-          <div class="preview">
+          <div className="preview">
             <h1>Reservations</h1>
             <img
               src={Images.exterior}
@@ -40,7 +40,7 @@ const Reservations = () => {
           </div>
         </section>
         <hr />
-        <div class="bottom">
+        <div className="bottom">
           <img
             src={Images.greenrestaurant}
             alt="restaurant interior with lots of plants"

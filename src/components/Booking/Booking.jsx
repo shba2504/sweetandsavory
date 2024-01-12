@@ -6,7 +6,7 @@ const Booking = () => {
       <Nav />
       <article>
         <section>
-          <div class="preview">
+          <div className="preview">
             <h1>Booking</h1>
           </div>
         </section>
