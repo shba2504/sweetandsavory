@@ -1,5 +1,12 @@
+import Nav from "./Nav/Nav";
+
 const Login = () => {
-  return <h1>Login</h1>;
+  return (
+    <>
+      <Nav />
+      <h1>Login</h1>
+    </>
+  );
 };
 
 export default Login;

@@ -1,5 +1,12 @@
+import Nav from "./Nav/Nav";
+
 const Reservations = () => {
-  return <h1>Reservations</h1>;
+  return (
+    <>
+      <Nav />
+      <h1>Reservations</h1>
+    </>
+  );
 };
 
 export default Reservations;

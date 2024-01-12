@@ -1,7 +1,12 @@
+import Nav from "./Nav/Nav";
+
 const About = () => {
   return (
     <>
-      <h1>About</h1>
+      <Nav />
+      <div class="preview">
+        <h1>About Us</h1>
+      </div>
     </>
   );
 };
