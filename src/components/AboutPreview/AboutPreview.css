@@ -1,8 +1,20 @@
 .aboutpreview {
-  display: grid;
-  grid-template-columns: repeat(2, 2fr);
+  display: flex;
+  width: 100%;
+  padding: 1rem;
 }
 
 .aboutpreview img {
-  width: 200px;
+  width: 100%;
+}
+
+.aboutpreview h2 {
+  font-size: 40px;
+  font-weight: lighter;
+  letter-spacing: 0.3rem;
+}
+
+.aboutpreview p {
+  font-size: 25px;
+  font-weight: lighter;
 }

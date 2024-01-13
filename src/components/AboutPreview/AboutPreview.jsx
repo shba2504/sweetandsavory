@@ -1,4 +1,5 @@
 import Images from "../../images/images";
+import "../AboutPreview/AboutPreview.css";
 
 const AboutPreview = () => {
   return (
@@ -16,8 +17,11 @@ const AboutPreview = () => {
                 <p>
                   Sweet and Savory was born out of Mark and Liza’s passion for
                   breakfast cuisine; a passion which led them on a trip across
-                  the world. Follow their adventures as they experience
-                  delicious breakfast in the places where they originated.
+                  the world.{" "}
+                </p>
+                <p>
+                  Follow their adventures as they experience delicious breakfast
+                  in the places where they originated.
                 </p>
               </div>
             </div>
