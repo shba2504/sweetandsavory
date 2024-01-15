@@ -12,7 +12,7 @@ const MenuPreview = () => {
               <img
                 src={Images.eggbenedict}
                 alt="plate of eggs benedict"
-                className="items1"
+                className="items"
               />
               <img
                 src={Images.parfait}
@@ -22,27 +22,27 @@ const MenuPreview = () => {
               <img
                 src={Images.blueberryfrenchtoast}
                 alt="plate of French toast with blueberries"
-                className="items2"
+                className="items"
               />
               <img
                 src={Images.acaibowl}
                 alt="acai bowl with fruit platter"
-                className="items3"
+                className="items"
               />
               <img
                 src={Images.spread2}
                 alt="table with breakfast foods"
-                className="items4"
+                className="items"
               />
               <img
                 src={Images.avocadotoast}
                 alt="plate of avocado toast with poached egg"
-                className="items5"
+                className="items"
               />
               <img
                 src={Images.fruitpancake}
                 alt="plate of pancakes with strawberries and blueberries"
-                className="items6"
+                className="items"
               />
             </div>
           </div>
