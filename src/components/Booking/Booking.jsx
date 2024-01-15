@@ -1,10 +1,13 @@
 import Nav from "../Nav/Nav";
 import "../Booking/Booking.css";
+import Images from "../../images/images";
+import MyTextInput from "../Formik";
 
 const Booking = () => {
   return (
     <>
       <Nav />
+      <MyTextInput />
       <article>
         <section>
           <div className="preview">
@@ -35,6 +38,11 @@ const Booking = () => {
             </fieldset>
           </form>
         </section>
+        <br />
+        <hr />
+        <div class="bottom">
+          <img src={Images.sweettoast} alt="" />
+        </div>
       </article>
     </>
   );
