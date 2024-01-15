@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import Login from "./components/Login/Login";
+import CreateAcct from "./components/CreateAcct/CreateAcct";
 
 function App() {
   return (
     <>
-      <Login />
+      <CreateAcct />
     </>
   );
 }

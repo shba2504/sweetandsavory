@@ -16,10 +16,14 @@ const Login = () => {
         <section>
           <div>
             <form>
-              <label>Email</label>
-              <input />
-              <label>Password</label>
-              <input />
+              <div>
+                <label>Email</label>
+                <input />
+              </div>
+              <div>
+                <label>Password</label>
+                <input />
+              </div>
             </form>
           </div>
         </section>
