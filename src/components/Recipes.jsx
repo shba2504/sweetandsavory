@@ -1,3 +1,5 @@
+import Images from "../images/images";
+
 const Recipes = (props) => {
   console.log(props);
 

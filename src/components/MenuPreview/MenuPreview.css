@@ -23,6 +23,10 @@
   height: 400px;
 }
 
+.items:nth-of-type(5) {
+  grid-column: span 2;
+}
+
 .items img:nth-of-type(1) {
   height: 100%;
 }

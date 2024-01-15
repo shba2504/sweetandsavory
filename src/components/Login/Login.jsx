@@ -1,4 +1,4 @@
-import Nav from "./Nav/Nav";
+import Nav from "../Nav/Nav";
 
 const Login = () => {
   return (
@@ -7,24 +7,23 @@ const Login = () => {
       <article>
         <section>
           <div className="preview">
-            <h1>Welcome Back!</h1>
+            <h1>Welcome!</h1>
             <p>
-              Login below or <a>create an account</a>
+              Log in below or <a href="/">create an account</a>
             </p>
           </div>
         </section>
         <section>
           <div>
             <form>
-              <fieldset>
-                <label>Email</label>
-                <input />
-                <label>Password</label>
-                <input />
-              </fieldset>
+              <label>Email</label>
+              <input />
+              <label>Password</label>
+              <input />
             </form>
           </div>
         </section>
+        <br />
         <section>
           <div>
             <button>Sign In</button>

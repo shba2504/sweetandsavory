@@ -1,7 +1,7 @@
 .aboutpreview {
   display: flex;
   width: 100%;
-  padding: 1rem;
+  padding: 10px;
 }
 
 .aboutpreview img {
