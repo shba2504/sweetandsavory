@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import CreateAcct from "./components/CreateAcct/CreateAcct";
+import Booking from "./components/Booking/Booking";
 
 function App() {
   return (
     <>
-      <CreateAcct />
+      <Booking />
     </>
   );
 }

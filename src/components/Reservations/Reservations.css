@@ -1,0 +1,9 @@
+.sidebar {
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+  padding: 5px 20px 5px 20px;
+}
+
+.sidebar img {
+  width: 100%;
+}

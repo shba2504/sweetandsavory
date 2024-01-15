@@ -1,4 +1,5 @@
 import Nav from "../Nav/Nav";
+import "../Login/Login.css";
 
 const Login = () => {
   return (

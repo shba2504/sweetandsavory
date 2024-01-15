@@ -1,4 +1,5 @@
-import Nav from "./Nav/Nav";
+import Nav from "../Nav/Nav";
+import "../Booking/Booking.css";
 
 const Booking = () => {
   return (
@@ -13,7 +14,7 @@ const Booking = () => {
         <section>
           <form>
             <fieldset>
-              <h2>Guest Information</h2>
+              <h3>Guest Information</h3>
               <label>
                 First Name
                 <input />
@@ -30,22 +31,9 @@ const Booking = () => {
                 Special Requests or Accommodations:
                 <input />
               </label>
+              <button>Confirm Reservation</button>
             </fieldset>
           </form>
-        </section>
-        <section>
-          <div>
-            <button></button>
-            <form>
-              <label>
-                <input type="checkbox" />
-                <p>
-                  Join our newsletter for more breakfast cuisine and recipes
-                  from across the world.
-                </p>
-              </label>
-            </form>
-          </div>
         </section>
       </article>
     </>

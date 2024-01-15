@@ -1,5 +1,6 @@
-import Nav from "./Nav/Nav";
+import Nav from "../Nav/Nav";
 import Images from "../../images/images";
+import "../About/About.css";
 
 const About = () => {
   return (
@@ -20,11 +21,11 @@ const About = () => {
               <p>
                 From chicken and waffles in the American South to Danish
                 pancakes to North African shakshouka and French toast in its
-                Roman origin...
+                Roman origin...(yes, you read that right)
               </p>
               <p>
-                Mark and Liza have experienced a variety of different
-                cuisines...
+                Mark and Liza have experienced a variety of different cuisines
+                from all across the world.
               </p>
               <img
                 src={Images.shakshouka}

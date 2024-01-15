@@ -1,5 +1,6 @@
-import Nav from "./Nav/Nav";
+import Nav from "../Nav/Nav";
 import Images from "../../images/images";
+import "../Reservations/Reservations.css";
 
 const Reservations = () => {
   return (
@@ -15,8 +16,9 @@ const Reservations = () => {
             />
           </div>
         </section>
+        <hr />
         <section>
-          <div>
+          <div class="sidebar">
             <img
               src={Images.granola}
               alt="bowl of granola with pieces of granola and strawberries scattered on table"
