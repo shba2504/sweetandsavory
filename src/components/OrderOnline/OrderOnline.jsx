@@ -1,10 +1,17 @@
-import Nav from "./Nav/Nav";
+import Nav from "../Nav/Nav";
+import "../OrderOnline/OrderOnline.css";
 
 const OrderOnline = () => {
   return (
     <>
       <Nav />
-      <h1>OrderOnline</h1>
+      <article>
+        <section>
+          <div className="preview">
+            <h1>OrderOnline</h1>
+          </div>
+        </section>
+      </article>
     </>
   );
 };

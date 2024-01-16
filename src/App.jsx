@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import Reservations from "./components/Reservations/Reservations";
+import OrderOnline from "./components/OrderOnline/OrderOnline";
 
 function App() {
   return (
     <>
-      <Reservations />
+      <OrderOnline />
     </>
   );
 }
