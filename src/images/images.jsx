@@ -1,5 +1,6 @@
 const Images = {
   Logo: new URL("./Logo.svg", import.meta.url).href,
+  Logo2: new URL("./Logo2.svg", import.meta.url).href,
   acaibowl: new URL("./acaibowl.jpg", import.meta.url).href,
   avocadotoast: new URL("./avocadotoast.jpg", import.meta.url).href,
   bananapancakes: new URL("./bananapancakes.jpg", import.meta.url).href,

@@ -1,3 +1,4 @@
+import Footer from "../Footer/Footer";
 import Nav from "../Nav/Nav";
 import "../OrderOnline/OrderOnline.css";
 
@@ -12,6 +13,7 @@ const OrderOnline = () => {
           </div>
         </section>
       </article>
+      <Footer />
     </>
   );
 };

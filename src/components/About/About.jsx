@@ -1,6 +1,7 @@
 import Nav from "../Nav/Nav";
 import Images from "../../images/images";
 import "../About/About.css";
+import Footer from "../Footer/Footer";
 
 const About = () => {
   return (
@@ -60,6 +61,7 @@ const About = () => {
           </section>
         </section>
       </article>
+      <Footer />
     </>
   );
 };

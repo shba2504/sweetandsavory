@@ -1,6 +1,8 @@
 import Nav from "../Nav/Nav";
 import Recipes from "../Recipes";
 import Images from "../../images/images";
+import { MdOutlineShoppingCart } from "react-icons/md";
+import Footer from "../Footer/Footer";
 
 const recipes = [
   {
@@ -82,6 +84,7 @@ const Menu = () => {
   return (
     <>
       <Nav />
+      <MdOutlineShoppingCart />
       <article>
         <section>
           <div className="preview">
@@ -159,6 +162,7 @@ const Menu = () => {
         <button>Order Delivery</button>
         <br />
       </article>
+      <Footer />
     </>
   );
 };
