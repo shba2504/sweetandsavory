@@ -16,7 +16,9 @@ const Reservations = () => {
             />
           </div>
         </section>
+        <br />
         <hr />
+        <br />
         <section>
           <div class="sidebar">
             <img
@@ -25,23 +27,24 @@ const Reservations = () => {
             />
             <form>
               <fieldset>
-                <label>
-                  Party Size
-                  <input />
-                </label>
-                <label>
-                  Date
-                  <input />
-                </label>
-                <label>
-                  Time
-                  <input />
-                </label>
+                <label>Party Size</label>
+                <input placeholder="2 Guests" />
               </fieldset>
+              <fieldset>
+                <label>Date</label>
+                <input />
+              </fieldset>
+              <fieldset>
+                <label>Time</label>
+                <input />
+              </fieldset>
+              <button>Search</button>
             </form>
           </div>
         </section>
+        <br />
         <hr />
+        <br />
         <div className="bottom">
           <img
             src={Images.greenrestaurant}
