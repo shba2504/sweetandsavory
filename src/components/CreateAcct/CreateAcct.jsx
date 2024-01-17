@@ -79,14 +79,14 @@ const CreateAcct = () => {
         }}
       >
         <Form>
-          <MyTextInput label="First Name" name="firstName" type="text" />
+          <MyTextInput placeholder="First Name" name="firstName" type="text" />
 
-          <MyTextInput label="Last Name" name="lastName" type="text" />
+          <MyTextInput placeholder="Last Name" name="lastName" type="text" />
 
-          <MyTextInput label="Email Address" name="email" type="email" />
-          <MyTextInput label="Password" name="Password" type="password" />
+          <MyTextInput placeholder="Email Address" name="email" type="email" />
+          <MyTextInput placeholder="Password" name="Password" type="password" />
           <MyTextInput
-            label="Confirm Password"
+            placeholder="Confirm Password"
             name="confirmPassword"
             type="password"
           />
