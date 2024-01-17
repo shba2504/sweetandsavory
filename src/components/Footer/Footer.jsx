@@ -15,10 +15,10 @@ const Footer = () => {
               <img src={Images.Logo2} alt="second restaurant logo" />
             </div>
             <div className="socialmedia">
-              <FaFacebookF color="white" fontSize={25} className="icon1" />
-              <FaInstagram color="white" fontSize={25} className="icon2" />
-              <FaTwitter color="white" fontSize={25} className="icon3" />
-              <FaLinkedinIn color="white" fontSize={25} className="icon4" />
+              <FaFacebookF color="white" fontSize={20} className="icon1" />
+              <FaInstagram color="white" fontSize={20} className="icon2" />
+              <FaTwitter color="white" fontSize={20} className="icon3" />
+              <FaLinkedinIn color="white" fontSize={20} className="icon4" />
             </div>
           </div>
         </section>
