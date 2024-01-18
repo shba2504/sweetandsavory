@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
 
-import Login from "./components/Login/Login";
+import Reservations from "./components/Reservations/Reservations";
 
 function App() {
   return (
     <>
-      <Login />
+      <Reservations />
     </>
   );
 }

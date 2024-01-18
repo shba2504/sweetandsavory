@@ -1,8 +1,23 @@
 import Nav from "../Nav/Nav";
 import Images from "../../images/images";
 import "../Reservations/Reservations.css";
+import { useState } from "react";
 
 const Reservations = () => {
+  const [party, setParty] = useState("");
+  const [date, setDate] = useState("");
+  const [time, setTime] = useState("");
+
+  const handleChange = (e) => {
+    setDate(e);
+  };
+
+  const handleSubmit = (e) => {
+    setParty("");
+    setDate("");
+    setTime("");
+  };
+
   return (
     <>
       <Nav />
@@ -25,26 +40,57 @@ const Reservations = () => {
               src={Images.granola}
               alt="bowl of granola with pieces of granola and strawberries scattered on table"
             />
-            <form>
-              <fieldset>
-                <label>Party Size</label>
-                <input placeholder="2 Guests" />
+            <form onSubmit={handleSubmit} className="reservations-container">
+              <fieldset className="reservations-input">
+                <label htmlFor="party">Select Party Size</label>
+                <input
+                  id="party"
+                  type="number"
+                  min="2"
+                  max="10"
+                  value={party}
+                  placeholder="2 Guests"
+                  onChange={(e) => setParty(e.target.value)}
+                  required
+                />
               </fieldset>
-              <fieldset>
-                <label>Date</label>
-                <input />
+              <fieldset className="reservations-input">
+                <label htmlFor="date">Select Date</label>
+                <input
+                  type="date"
+                  id="date"
+                  value={date}
+                  onChange={(e) => setDate(e.target.value)}
+                  required
+                />
               </fieldset>
-              <fieldset>
-                <label>Time</label>
-                <input />
+              <fieldset className="reservations-input">
+                <label htmlFor="time">Select Time</label>
+                <select
+                  id="time"
+                  value={time}
+                  onChange={(e) => setTime(e.target.value)}
+                  required
+                >
+                  <option> </option>
+                  <option>5:00 PM</option>
+                  <option>5:30 PM</option>
+                  <option>6:00 PM</option>
+                  <option>6:30 PM</option>
+                  <option>7:00 PM</option>
+                  <option>7:30 PM</option>
+                  <option>8:00 PM</option>
+                  <option>8:30 PM</option>
+                  <option>9:00 PM</option>
+                  <option>9:30 PM</option>
+                </select>
               </fieldset>
-              <button>Search</button>
+              <button type="submit" aria-label="submit button">
+                Book Reservation
+              </button>
             </form>
           </div>
         </section>
-        <br />
-        <hr />
-        <br />
         <div className="bottom">
           <img
             src={Images.greenrestaurant}
