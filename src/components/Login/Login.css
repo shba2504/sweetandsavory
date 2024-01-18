@@ -1,0 +1,46 @@
+
+.full-screen-container {
+  background-image: url("/src/images/granola2.jpg");
+  height: 80vh;
+  background-size: cover;
+  padding-top: 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.login-container {
+  background-color: hsla(180, 7%, 92%, 0.5);
+  width: 65%;
+  box-shadow: 0 0 15px 0;
+  max-width: 700px;
+  min-width: 400px;
+  border-radius: 20px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-group a {
+  text-decoration: underline;
+}
+
+.input-group input {
+  border: none;
+  background-color: hsla(180, 7%, 92%, 0.5);
+  font-weight: lighter;
+}
+
+.input-group p {
+  text-align: center;
+}
+
+#login-button {
+  width: 100%;
+  opacity: 0.7;
+  font-size: 1.25rem;
+}
