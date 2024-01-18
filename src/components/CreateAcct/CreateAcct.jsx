@@ -38,9 +38,9 @@ const CreateAcct = () => {
       <Nav />
       <div className="preview">
         <h1>Create an Account</h1>
-        <p>
+        <p className="preview-link">
           Enter your information below to create an account or{" "}
-          <a href="#">Log In</a>
+          <a href="#"> Log In</a>
         </p>
       </div>
       <Formik
@@ -78,27 +78,47 @@ const CreateAcct = () => {
           }, 400);
         }}
       >
-        <Form>
-          <MyTextInput placeholder="First Name" name="firstName" type="text" />
+        <div className="input-container">
+          <div className="form-container">
+            <Form className="input-group">
+              <MyTextInput
+                placeholder="First Name"
+                name="firstName"
+                type="text"
+              />
 
-          <MyTextInput placeholder="Last Name" name="lastName" type="text" />
+              <MyTextInput
+                placeholder="Last Name"
+                name="lastName"
+                type="text"
+              />
 
-          <MyTextInput placeholder="Email Address" name="email" type="email" />
-          <MyTextInput placeholder="Password" name="Password" type="password" />
-          <MyTextInput
-            placeholder="Confirm Password"
-            name="confirmPassword"
-            type="password"
-          />
-          <br />
-          <div>
-            <button type="submit">Sign In</button>
+              <MyTextInput
+                placeholder="Email Address"
+                name="email"
+                type="email"
+              />
+              <MyTextInput
+                placeholder="Password"
+                name="Password"
+                type="password"
+              />
+              <MyTextInput
+                placeholder="Confirm Password"
+                name="confirmPassword"
+                type="password"
+              />
+              <br />
+              <div>
+                <button type="submit">Sign In</button>
+              </div>
+              <MyCheckbox name="acceptedNewsletter">
+                Join our newsletter for more breakfast cuisine and recipes from
+                across the world!
+              </MyCheckbox>
+            </Form>
           </div>
-          <MyCheckbox name="acceptedNewsletter">
-            Join our newsletter for more breakfast cuisine and recipes from
-            across the world!
-          </MyCheckbox>
-        </Form>
+        </div>
       </Formik>
       <br />
     </>

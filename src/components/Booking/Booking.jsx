@@ -12,21 +12,31 @@ const Booking = () => {
             <h1>Booking</h1>
           </div>
         </section>
-        <section>
-          <form class="booking">
-            <h4>Guest Information</h4>
-            <p>Enter your details below to book the reservation.</p>
-            <label></label>
-            <input placeholder="First Name" />
-            <label></label>
-            <input placeholder="Last Name" />
-            <label></label>
-            <input placeholder="Email" />
-            <label></label>
-            <textarea placeholder="Special Requests or Accommodations" />
-            <br />
-            <button type="submit">Confirm Reservation</button>
-          </form>
+        <section className="booking">
+          <h4>Guest Information</h4>
+          <p>Enter your details below to book the reservation.</p>
+          <div className="input-container">
+            <div className="booking-container">
+              <form className="input-group">
+                <div>
+                  <input type="text" placeholder="First Name" />
+
+                  <input type="text" placeholder="Last Name" />
+
+                  <input type="email" placeholder="Email" />
+
+                  <textarea
+                    type="text"
+                    placeholder="Special Requests or Accommodations"
+                  />
+                  <br />
+                  <button type="submit" className="form-container">
+                    Confirm Reservation
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
         </section>
         <br />
 

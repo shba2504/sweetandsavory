@@ -28,3 +28,24 @@ input[type="checkbox"]:checked {
   background-size: contain;
   background-color: #f4ce14;
 }
+
+.form-container {
+  max-width: 700px;
+  min-width: 400px;
+  border-radius: 20px;
+}
+
+.form-container button {
+  width: 100%;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.preview-link a {
+  position: absolute;
+  padding-left: 5px;
+}

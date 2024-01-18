@@ -34,7 +34,7 @@ button {
   border-radius: 10px;
   border: none;
   height: 40px;
-  width: 200px;
+  width: 100%;
   cursor: pointer;
   margin-top: 5px;
 }
@@ -95,10 +95,15 @@ input,
 textarea {
   padding: 1rem 0.6rem;
   border-radius: 0.25rem;
-  width: 65%;
+  width: 100%;
   font-size: 16px;
 }
 
 .preview a {
   text-decoration: underline;
+}
+
+.preview p {
+  text-align: center;
+  padding-top: 1rem;
 }
