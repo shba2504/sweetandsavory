@@ -22,7 +22,7 @@ const About = () => {
               <p>
                 From chicken and waffles in the American South to Danish
                 pancakes to North African shakshouka and French toast in its
-                Roman origin...(yes, you read that right)
+                Roman origin...(yes, you read that right).
               </p>
               <p>
                 Mark and Liza have experienced a variety of different cuisines

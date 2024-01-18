@@ -28,7 +28,7 @@
 }
 
 .navbar-links li a:hover {
-  color: #f4ce14;
+  color: var(--primary);
 }
 
 .toggle-button {

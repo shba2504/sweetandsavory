@@ -7,7 +7,7 @@ const AboutPreview = () => {
       <article>
         <section>
           <div class="preview">
-            <h1>Reserve a Table</h1>
+            <h1>About Us</h1>
             <div class="aboutpreview">
               <div>
                 <img src={Images.travel} alt="fold out map in a car" />
