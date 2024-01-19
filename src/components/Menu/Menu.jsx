@@ -78,14 +78,14 @@ const recipes = [
   {
     name: "Belgian Waffle",
     description:
-      "A fresh Belgian waffle with butter, whipped cream, and syrup. Add two eggs for $2.00",
+      "A fresh Belgian waffle with butter, whipped cream, and syrup.",
     price: "$9",
     photoName: "src/images/belgianwaffle.jpg",
   },
   {
     name: "Veggie Omelet",
     description:
-      "Scrambled eggs, spinach, red peppers, onions, avocado, potatoes with cheese of your choice. Add green chili for $2.99.",
+      "Scrambled eggs, spinach, red peppers, onions, avocado, potatoes with cheese of your choice.",
     price: "$12",
     photoName: "src/images/veggieomelet.jpg",
   },
@@ -97,7 +97,7 @@ const Menu = () => {
       <main>
         <Nav />
         <div className="preview">
-          <h1>Menu</h1>
+          <h1>Our Menu</h1>
         </div>
         <div className="slider">
           <br />
@@ -112,7 +112,7 @@ const Menu = () => {
               textAlign: "center",
             }}
           >
-            This Week's Specials
+            Something New and Something Old
           </h2>
         </div>
         <div className="menu">
@@ -123,7 +123,24 @@ const Menu = () => {
           </ul>
         </div>
         <br />
-        <button>Order Delivery</button>
+        <div
+          className="submit-btn"
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            marginBottom: "20px",
+          }}
+        >
+          <button
+            type="submit"
+            aria-label="submit button"
+            style={{
+              width: "300px",
+            }}
+          >
+            Order Delivery
+          </button>
+        </div>
         <br />
 
         <Footer />

@@ -5,7 +5,15 @@ const Recipes = (props) => {
 
   return (
     <>
-      <li style={{ display: "flex", gap: "2.5em", alignItems: "center" }}>
+      <li
+        style={{
+          display: "flex",
+          gap: "1.5em",
+          alignItems: "flex-start",
+          paddingLeft: "10px",
+          paddingRight: "10px",
+        }}
+      >
         <img
           src={props.recipeObj.photoName}
           alt="images for menu"
@@ -30,7 +38,7 @@ const Recipes = (props) => {
           >
             {props.recipeObj.description}
           </p>
-          <span style={{ display: "block", fontSize: "1.2rem" }}>
+          <span style={{ display: "block", fontSize: "1rem" }}>
             {props.recipeObj.price}
           </span>
         </div>
