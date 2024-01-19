@@ -4,6 +4,7 @@ const Images = {
   acaibowl: new URL("./acaibowl.jpg", import.meta.url).href,
   avocadotoast: new URL("./avocadotoast.jpg", import.meta.url).href,
   bananapancakes: new URL("./bananapancakes.jpg", import.meta.url).href,
+  belgianwaffle: new URL("./belgianwaffle.jpg", import.meta.url).href,
   blueberryfrenchtoast: new URL("./blueberryfrenchtoast.jpg", import.meta.url)
     .href,
   breakfastspread: new URL("./breakfastspread.jpg", import.meta.url).href,
@@ -30,6 +31,7 @@ const Images = {
   travel: new URL("./travel.png", import.meta.url).href,
   travelfood: new URL("./travelfood.jpg", import.meta.url).href,
   travelfood2: new URL("./travelfood2.jpg", import.meta.url).href,
+  veggieomelet: new URL("./veggieomelet.jpg", import.meta.url).href,
 };
 
 export default Images;
