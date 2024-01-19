@@ -30,7 +30,7 @@ h1 {
 button {
   background-color: var(--primary);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 16px;
+  font-size: 1.25rem;
   border-radius: 10px;
   border: none;
   height: 40px;
@@ -44,6 +44,7 @@ button:hover {
   background-color: var(--secondary);
   color: white;
   font-weight: bold;
+  transition: 1s ease-in-out;
 }
 
 a:hover {
@@ -90,6 +91,9 @@ hr {
   width: 100%;
   height: 500px;
   object-fit: cover;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  display: block;
 }
 
 input,

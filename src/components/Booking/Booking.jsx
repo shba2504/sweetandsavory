@@ -13,17 +13,18 @@ const Booking = () => {
           </div>
         </section>
         <section className="booking">
-          <h4>Guest Information</h4>
+          <h3>Guest Information</h3>
           <p>Enter your details below to book the reservation.</p>
-          <div className="input-container">
+          <div className="">
             <div className="booking-container">
-              <form className="input-group">
-                <div>
-                  <input type="text" placeholder="First Name" />
-
-                  <input type="text" placeholder="Last Name" />
-
-                  <input type="email" placeholder="Email" />
+              <form>
+                <div className="booking-input">
+                  <label></label>
+                  <input type="text" placeholder="First Name" required />
+                  <label></label>
+                  <input type="text" placeholder="Last Name" required />
+                  <label></label>
+                  <input type="email" placeholder="Email" required />
 
                   <textarea
                     type="text"

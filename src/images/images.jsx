@@ -14,7 +14,7 @@ const Images = {
   exterior: new URL("./exterior.jpg", import.meta.url).href,
   fruitpancake: new URL("./fruitpancake.jpg", import.meta.url).href,
   gathering: new URL("./gathering.jpg", import.meta.url).href,
-  germanbreakfast: new URL("./germanbreakfast.jpeg", import.meta.url).href,
+  gathering2: new URL("./gathering2.jpg", import.meta.url).href,
   globe: new URL("./globe.jpg", import.meta.url).href,
   granola: new URL("./granola.jpg", import.meta.url).href,
   granola2: new URL("./granola2.jpg", import.meta.url).href,

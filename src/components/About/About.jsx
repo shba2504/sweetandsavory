@@ -54,8 +54,8 @@ const About = () => {
           <section>
             <div className="bottom">
               <img
-                src={Images.germanbreakfast}
-                alt="table spread of traditional German breakfast with eggs and lots of bread"
+                src={Images.gathering2}
+                alt="people eating over a table of food"
               />
             </div>
           </section>

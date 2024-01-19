@@ -16,7 +16,7 @@ input[type="checkbox"] {
   background-color: white;
   align-self: center;
   margin-right: 0.5rem;
-  padding: 0rem;
+  padding: 0;
 }
 
 input[type="checkbox"]:hover {
@@ -37,6 +37,7 @@ input[type="checkbox"]:checked {
 
 .form-container button {
   width: 100%;
+  letter-spacing: 0.2rem;
 }
 
 .input-container {
