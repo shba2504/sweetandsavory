@@ -28,6 +28,7 @@ const Reservations = () => {
             <img
               src={Images.exterior}
               alt="wooden table with plate and glass settings"
+              loading="lazy"
             />
           </div>
         </section>
@@ -39,6 +40,7 @@ const Reservations = () => {
             <img
               src={Images.granola}
               alt="bowl of granola with pieces of granola and strawberries scattered on table"
+              loading="lazy"
             />
             <form onSubmit={handleSubmit} className="reservations-container">
               <fieldset className="reservations-input">
@@ -95,6 +97,7 @@ const Reservations = () => {
           <img
             src={Images.greenrestaurant}
             alt="restaurant interior with lots of plants"
+            loading="lazy"
           />
         </div>
       </article>

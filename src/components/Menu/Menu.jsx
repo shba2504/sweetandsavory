@@ -99,7 +99,7 @@ const Menu = () => {
         <div className="preview">
           <h1>Our Menu</h1>
         </div>
-        <div className="slider">
+        <div>
           <br />
           <h2
             style={{

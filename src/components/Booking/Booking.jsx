@@ -15,7 +15,7 @@ const Booking = () => {
         <section className="booking">
           <h3>Guest Information</h3>
           <p>Enter your details below to book the reservation.</p>
-          <div className="">
+          <div>
             <div className="booking-container">
               <form>
                 <div className="booking-input">
@@ -31,9 +31,24 @@ const Booking = () => {
                     placeholder="Special Requests or Accommodations"
                   />
                   <br />
-                  <button type="submit" className="form-container">
+                  <button
+                    data-modal-target=""
+                    type="submit"
+                    className="form-container"
+                  >
                     Confirm Reservation
                   </button>
+                  <div className="active" id="modal">
+                    <div className="modal-header">
+                      <button data-close-button className="close-btn">
+                        &times;
+                      </button>
+                    </div>
+                    <div className="modal-body">
+                      Booking has been confirmed!
+                    </div>
+                  </div>
+                  <div className="active" id="modal-overlay"></div>
                 </div>
               </form>
             </div>

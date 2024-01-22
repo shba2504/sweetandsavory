@@ -24,6 +24,7 @@ const Recipes = (props) => {
             objectFit: "cover",
             borderRadius: "10px",
           }}
+          loading="lazy"
         />
         <div>
           <h3 style={{ fontSize: "1.5rem", fontWeight: "400" }}>
