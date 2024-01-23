@@ -21,6 +21,7 @@ textarea {
 
 .booking-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -28,10 +29,6 @@ textarea {
 .booking-input {
   max-width: 700px;
   min-width: 400px;
-}
-
-.booking-input button {
-  margin: 10px;
 }
 
 #modal {
@@ -72,6 +69,7 @@ textarea {
   background: none;
   font-size: 1.5rem;
   font-weight: bold;
+  text-align: end;
 }
 
 #modal-overlay {
@@ -88,4 +86,9 @@ textarea {
 #modal-overlay.active {
   opacity: 1;
   pointer-events: all;
+}
+
+.submit-btn {
+  margin: 10px;
+  width: 50%;
 }

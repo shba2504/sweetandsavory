@@ -2,6 +2,7 @@ import Nav from "../Nav/Nav";
 import Images from "../../images/images";
 import "../Reservations/Reservations.css";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Reservations = () => {
   const [party, setParty] = useState("");
@@ -87,9 +88,11 @@ const Reservations = () => {
                   <option>9:30 PM</option>
                 </select>
               </fieldset>
-              <button type="submit" aria-label="submit button">
-                Book Reservation
-              </button>
+              <Link to="/booking">
+                <button type="submit" aria-label="submit button">
+                  Book Reservation
+                </button>
+              </Link>
             </form>
           </div>
         </section>

@@ -1,5 +1,6 @@
 import "../Nav/Nav.css";
 import Images from "../../images/images";
+import { Link } from "react-router-dom";
 
 /*const toggleButton = document.getElementsByClassName("toggle-button")[0];
 const navbarLinks = document.getElementsByClassName("navbar-links")[0];
@@ -23,25 +24,25 @@ const Nav = () => {
         <div className="navbar-links">
           <ul>
             <li>
-              <a href="#">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="#">About</a>
+              <Link to="/about">About</Link>
             </li>
             <li>
-              <a href="#">Menu</a>
+              <Link to="/menu">Menu</Link>
             </li>
             <li>
-              <a href="#">Reservations</a>
+              <Link to="/reservations">Reservations</Link>
             </li>
             <li>
-              <a href="#">Order Online</a>
+              <Link to="/order">Order Online</Link>
             </li>
             <li>
-              <a href="#">Log In</a>
+              <Link to="/login">Log In</Link>
             </li>
             <li>
-              <a href="#">Register</a>
+              <Link to="/create">Create Account</Link>
             </li>
           </ul>
         </div>
