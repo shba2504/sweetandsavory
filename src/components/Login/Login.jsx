@@ -21,13 +21,17 @@ const Login = () => {
                     Log in below or <a href="/">create an account</a>
                   </p>
                   <label htmlFor="email">Email Address</label>
-                  <input id="email" type="email" />
+                  <input id="email" type="email" required />
 
                   <label htmlFor="password">Password</label>
-                  <input id="password" type="password" />
+                  <input id="password" type="password" required />
 
                   <div>
-                    <button id="login-button" type="submit" aria-label="login-submit">
+                    <button
+                      id="login-button"
+                      type="submit"
+                      aria-label="login-submit"
+                    >
                       Sign In
                     </button>
                     <p>Forgot Password?</p>

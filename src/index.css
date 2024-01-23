@@ -43,8 +43,7 @@ button {
 button:hover {
   background-color: var(--secondary);
   color: white;
-  font-weight: bold;
-  transition: 1s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 a:hover {
