@@ -1,6 +1,6 @@
 import "../Nav/Nav.css";
 import Images from "../../images/images";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { MdOutlineRestaurantMenu } from "react-icons/md";
@@ -18,25 +18,25 @@ const Nav = () => {
         <div className="navbar-links">
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <NavLink to="/about">About</NavLink>
             </li>
             <li>
-              <Link to="/menu">Menu</Link>
+              <NavLink to="/menu">Menu</NavLink>
             </li>
             <li>
-              <Link to="/reservations">Reservations</Link>
+              <NavLink to="/reservations">Reservations</NavLink>
             </li>
             <li>
-              <Link to="/order">Order Online</Link>
+              <NavLink to="/order">Order Online</NavLink>
             </li>
             <li>
-              <Link to="/login">Log In</Link>
+              <NavLink to="/login">Log In</NavLink>
             </li>
             <li>
-              <Link to="/create">Create Account</Link>
+              <NavLink to="/create">Create Account</NavLink>
             </li>
           </ul>
         </div>

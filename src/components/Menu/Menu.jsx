@@ -3,6 +3,7 @@ import Recipes from "../Recipes";
 import Images from "../../images/images";
 import "../Menu/Menu.css";
 import Footer from "../Footer/Footer";
+import { NavLink } from "react-router-dom";
 
 const recipes = [
   {
@@ -131,15 +132,17 @@ const Menu = () => {
             width: "100%",
           }}
         >
-          <button
-            type="submit"
-            aria-label="submit button"
-            style={{
-              width: "300px",
-            }}
-          >
-            Order Delivery
-          </button>
+          <NavLink to="/order">
+            <button
+              type="submit"
+              aria-label="submit button"
+              style={{
+                width: "300px",
+              }}
+            >
+              Order Delivery
+            </button>
+          </NavLink>
         </div>
         <br />
 
