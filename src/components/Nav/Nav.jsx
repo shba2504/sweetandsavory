@@ -1,26 +1,20 @@
 import "../Nav/Nav.css";
 import Images from "../../images/images";
 import { Link } from "react-router-dom";
-
-/*const toggleButton = document.getElementsByClassName("toggle-button")[0];
-const navbarLinks = document.getElementsByClassName("navbar-links")[0];
-
-toggleButton.addEventListener("click", () => {
-  navbarLinks.classList.toggle("active");
-});*/
+import { useState } from "react";
+import { RxHamburgerMenu } from "react-icons/rx";
+import { MdOutlineRestaurantMenu } from "react-icons/md";
 
 const Nav = () => {
+  const [toggleMenu, setToggleMenu] = useState(false);
+
   return (
     <>
       <nav className="navbar">
         <div className="logo">
           <img src={Images.Logo} alt="half-lemon and restaurant name logo" />
         </div>
-        <a href="#" className="toggle-button">
-          <span className="bar"></span>
-          <span className="bar"></span>
-          <span className="bar"></span>
-        </a>
+
         <div className="navbar-links">
           <ul>
             <li>
@@ -45,6 +39,22 @@ const Nav = () => {
               <Link to="/create">Create Account</Link>
             </li>
           </ul>
+        </div>
+        <div className="toggle-button">
+          <RxHamburgerMenu
+            color="#000"
+            fontSize={27}
+            onClick={() => setToggleMenu(true)}
+          />
+
+          {toggleMenu && (
+            <div className="overlay-close">
+              <MdOutlineRestaurantMenu
+                fontSize={27}
+                onClick={() => setToggleMenu(false)}
+              />
+            </div>
+          )}
         </div>
       </nav>
     </>

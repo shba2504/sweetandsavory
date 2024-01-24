@@ -9,8 +9,8 @@ const Reservations = () => {
   const [date, setDate] = useState("");
   const [time, setTime] = useState("");
 
-  const handleChange = (e) => {
-    setDate(e);
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
   };
 
   const handleSubmit = (e) => {
@@ -89,7 +89,11 @@ const Reservations = () => {
                 </select>
               </fieldset>
               <Link to="/booking">
-                <button type="submit" aria-label="submit button">
+                <button
+                  type="submit"
+                  aria-label="submit button"
+                  onClick={scrollToTop}
+                >
                   Book Reservation
                 </button>
               </Link>

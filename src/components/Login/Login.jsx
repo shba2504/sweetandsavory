@@ -1,6 +1,9 @@
 import React from "react";
 import Nav from "../Nav/Nav";
 import "../Login/Login.css";
+import { Link } from "react-router-dom";
+import { EmailAddress } from "../Form/EmailAddress";
+import { Password } from "../Form/Password";
 
 const Login = () => {
   return (
@@ -18,13 +21,10 @@ const Login = () => {
               <form>
                 <div className="input-group">
                   <p>
-                    Log in below or <a href="/">create an account</a>
+                    Log in below or <Link to="/create">create an account</Link>
                   </p>
-                  <label htmlFor="email">Email Address</label>
-                  <input id="email" type="email" required />
-
-                  <label htmlFor="password">Password</label>
-                  <input id="password" type="password" required />
+                  <EmailAddress />
+                  <Password />
 
                   <div>
                     <button

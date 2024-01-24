@@ -2,28 +2,22 @@ import Nav from "../Nav/Nav";
 import "../Booking/Booking.css";
 import Images from "../../images/images";
 import { useState } from "react";
+import { FirstName } from "../Form/FirstName";
+import { LastName } from "../Form/LastName";
+import { EmailAddress } from "../Form/EmailAddress";
+import { TextArea } from "../Form/TextArea";
 
 const Booking = () => {
   const [open, setOpen] = useState(false);
-  const [firstName, setFirstName] = useState("");
-  const [lastName, setLastName] = useState("");
-  const [emailAddress, setEmailAddress] = useState("");
 
   const handleSubmit = (e) => {
     setOpen(true);
     e.preventdefault();
-    clearForm();
   };
 
   const handleClose = () => {
     setOpen(false);
     e.preventdefault();
-  };
-
-  const clearForm = () => {
-    setFirstName("");
-    setLastName("");
-    setEmailAddress("");
   };
 
   return (
@@ -42,46 +36,15 @@ const Booking = () => {
             <div className="booking-container">
               <form>
                 <div className="booking-input">
-                  <label></label>
-                  <input
-                    id={firstName}
-                    type="text"
-                    value={firstName}
-                    onChange={(e) => setFirstName(e.target.value)}
-                    placeholder="First Name"
-                    required
-                  />
-                  <label></label>
-                  <input
-                    id={lastName}
-                    type="text"
-                    placeholder="Last Name"
-                    onChange={(e) => setLastName(e.target.value)}
-                    required
-                  />
-                  <label></label>
-                  <input
-                    id={emailAddress}
-                    type="email"
-                    placeholder="Email"
-                    onChange={(e) => setEmailAddress(e.target.value)}
-                    required
-                  />
-
-                  <textarea
-                    type="text"
-                    placeholder="Special Requests or Accommodations"
-                  />
+                  <FirstName />
+                  <LastName />
+                  <EmailAddress />
+                  <TextArea />
                   <br />
                 </div>
               </form>
               <div className="submit-btn">
-                <button
-                  type="submit"
-                  disabled={!firstName || !lastName || !emailAddress}
-                  onClick={handleSubmit}
-                  className="form-container"
-                >
+                <button type="submit" onClick={handleSubmit}>
                   Confirm Reservation
                 </button>
 
@@ -98,7 +61,7 @@ const Booking = () => {
                         </button>
                       </div>
                       <div className="modal-body">
-                        Booking has been confirmed!
+                        Your reservation has been confirmed!
                       </div>
                     </div>
                     <div className="active" id="modal-overlay"></div>

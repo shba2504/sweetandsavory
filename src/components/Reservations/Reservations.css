@@ -32,13 +32,19 @@ fieldset {
 }
 
 .reservations-input input {
-  border: 1px solid;
+  border: 1px solid black;
   margin-top: 15px;
 }
 
 select[id="time"] {
   width: 100%;
   margin-top: 15px;
+}
+
+#party,
+#date,
+#time {
+  border: 0.5px solid black;
 }
 
 @media (max-width: 600px) {

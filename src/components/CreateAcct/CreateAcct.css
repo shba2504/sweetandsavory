@@ -30,8 +30,8 @@ input[type="checkbox"]:checked {
 }
 
 .form-container {
-  max-width: 700px;
-  min-width: 400px;
+  min-width: 600px;
+  width: 60%;
   border-radius: 20px;
 }
 
@@ -46,7 +46,6 @@ input[type="checkbox"]:checked {
   align-items: center;
 }
 
-.preview-link a {
-  position: absolute;
-  padding-left: 5px;
+.preview p {
+  font-size: 1.15rem;
 }
