@@ -91,7 +91,8 @@ const Reservations = () => {
               <Link to="/booking">
                 <button
                   type="submit"
-                  aria-label="submit button"
+                  disabled={!party || !date || !time}
+                  aria-label="submit button, disabled until all required fields completed"
                   onClick={scrollToTop}
                 >
                   Book Reservation

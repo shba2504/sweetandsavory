@@ -9,6 +9,7 @@ export const Password = () => {
         type="password"
         placeholder="Password"
         style={{ border: "none" }}
+        min="6"
         required
       />
     </>

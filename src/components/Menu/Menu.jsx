@@ -129,6 +129,7 @@ const Menu = () => {
             display: "flex",
             justifyContent: "center",
             marginBottom: "20px",
+            width: "100%",
           }}
         >
           <button

@@ -26,10 +26,18 @@ const CreateAcct = () => {
             <LastName />
             <EmailAddress />
             <Password />
-
             <br />
             <div>
               <button type="submit">Sign In</button>
+              <input
+                type="checkbox"
+                name="acceptedNewsletter"
+                aria-label="click checkbox to join our newsletter"
+              />
+              <p>
+                Join our newsletter for more breakfast cuisine and recipes from
+                across the world!
+              </p>
             </div>
           </form>
         </div>

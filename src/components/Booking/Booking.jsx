@@ -44,7 +44,11 @@ const Booking = () => {
                 </div>
               </form>
               <div className="submit-btn">
-                <button type="submit" onClick={handleSubmit}>
+                <button
+                  type="submit"
+                  onClick={handleSubmit}
+                  aria-label="submit button, complete all required fields before submitting"
+                >
                   Confirm Reservation
                 </button>
 
