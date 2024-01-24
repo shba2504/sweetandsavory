@@ -70,8 +70,7 @@ const recipes = [
   },
   {
     name: "Steak and Eggs",
-    description:
-      "Grilled hanger steak with sunny side-up eggs and fresh tomatoes.",
+    description: "Grilled hanger steak with poached eggs and fresh tomatoes.",
     price: "$18",
     photoName: "src/images/steakandeggs.png",
   },
