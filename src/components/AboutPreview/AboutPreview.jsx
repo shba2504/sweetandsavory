@@ -6,9 +6,9 @@ const AboutPreview = () => {
     <>
       <article>
         <section>
-          <div class="preview">
+          <div className="preview">
             <h1>Join us for breakfast!</h1>
-            <div class="aboutpreview">
+            <div className="aboutpreview">
               <div>
                 <img
                   src={Images.travel}

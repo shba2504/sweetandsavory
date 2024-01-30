@@ -40,7 +40,7 @@ const Nav = () => {
             </li>
           </ul>
         </div>
-        <div className="toggle-button">
+        <div className="navbar-mobile">
           <RxHamburgerMenu
             color="#000"
             fontSize={27}
@@ -48,11 +48,34 @@ const Nav = () => {
           />
 
           {toggleMenu && (
-            <div className="overlay-close">
+            <div className="navbar-mobile_overlay">
               <MdOutlineRestaurantMenu
                 fontSize={27}
                 onClick={() => setToggleMenu(false)}
               />
+              <ul className="navbar-mobile_links">
+                <li>
+                  <NavLink to="/">Home</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/about">About</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/menu">Menu</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/reservations">Reservations</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/order">Order Online</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/login">Log In</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/create">Create Account</NavLink>
+                </li>
+              </ul>
             </div>
           )}
         </div>
