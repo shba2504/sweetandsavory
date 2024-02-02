@@ -17,7 +17,7 @@ fieldset {
   height: 26%;
   margin-bottom: 20px;
   border-radius: 5px;
-  border: 1px solid;
+  border: 0.5px solid;
   padding: 30px;
 }
 
@@ -47,19 +47,17 @@ select[id="time"] {
   border: 0.5px solid black;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .sidebar {
     grid-template-columns: 1fr;
     padding: 0px 30px 0px 30px;
     gap: 20px;
-    height: 30%;
+    height: 20%;
     width: 100%;
+    align-items: center;
   }
 
   .sidebar img {
-    width: 100%;
-    height: 430px;
-    justify-content: center;
-    object-fit: cover;
+    display: none;
   }
 }

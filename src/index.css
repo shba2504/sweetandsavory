@@ -82,7 +82,7 @@ hr {
 
 .preview img {
   width: 100%;
-  height: 500px;
+  height: 400px;
   object-fit: cover;
 }
 
@@ -111,4 +111,11 @@ textarea {
   text-align: center;
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+@media (max-width: 900px) {
+  .preview img {
+    width: 100%;
+    height: 300px;
+  }
 }

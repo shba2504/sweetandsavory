@@ -32,40 +32,61 @@
   color: var(--primary);
 }
 
-.toggle-button {
+.navbar-mobile {
   display: none;
-  position: absolute;
-  top: 2rem;
-  right: 1rem;
-  flex-direction: column;
-  justify-content: space-between;
-  color: black;
-  width: 30px;
-  height: 30px;
 }
 
+.navbar-mobile_links {
+  list-style-type: none;
+}
+
+.navbar-mobile_links li {
+  margin: 2em;
+  font-family: Karla;
+}
+
+.navbar-mobile_overlay {
+  display: none;
+  padding: 1em 1.5em 0.5em 1.5em;
+  cursor: pointer;
+  background-color: white;
+}
+
+.navbar-mobile_overlay .overlay_close {
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
 @media (max-width: 980px) {
-  .toggle-button {
+  .navbar-links {
+    display: none;
+  }
+  .navbar-mobile {
     display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding-top: 15px;
+    right: 30px;
     cursor: pointer;
   }
 
-  .navbar-links {
-    display: none;
-    width: 100%;
-  }
-
-  .navbar {
+  .navbar-mobile_overlay {
+    display: flex;
+    transition: 1s ease;
     flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .navbar-links ul {
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .navbar-links li {
     text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 20px;
+    right: 0px;
+    background-color: white;
+    z-index: 5;
+  }
+
+  .navbar-mobile_links a {
+    color: black;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
   }
 }
