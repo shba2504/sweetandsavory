@@ -15,7 +15,7 @@ const Booking = () => {
     e.preventdefault();
   };
 
-  const handleClose = () => {
+  const handleClose = (e) => {
     setOpen(false);
     e.preventdefault();
   };

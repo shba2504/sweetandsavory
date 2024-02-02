@@ -20,8 +20,9 @@ const Login = () => {
             <div className="login-container">
               <form>
                 <div className="input-group">
-                  <p>
-                    Log in below or <Link to="/create">create an account</Link>
+                  <p style={{ fontSize: 24 }}>
+                    Log in below with email and password or{" "}
+                    <Link to="/create">create an account</Link>
                   </p>
                   <EmailAddress />
                   <Password />

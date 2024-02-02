@@ -16,7 +16,7 @@ const AboutPreview = () => {
                   loading="lazy"
                 />
               </div>
-              <div class="story">
+              <div className="story">
                 <h2>Our Story</h2>
                 <p>
                   Sweet and Savory was born out of Mark and Liza’s passion for
