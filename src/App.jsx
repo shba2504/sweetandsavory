@@ -9,8 +9,9 @@ import Login from "./components/Login/Login";
 import CreateAcct from "./components/CreateAcct/CreateAcct";
 import Booking from "./components/Booking/Booking";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Confirmation from "./components/Booking/Confirmation";
 
-function App() {
+const App = () => {
   return (
     <>
       <BrowserRouter>
@@ -23,10 +24,11 @@ function App() {
           <Route path="login" element={<Login />} />
           <Route path="create" element={<CreateAcct />} />
           <Route path="booking" element={<Booking />} />
+          <Route path="confirmation" element={<Confirmation />} />
         </Routes>
       </BrowserRouter>
     </>
   );
-}
+};
 
 export default App;

@@ -1,22 +1,14 @@
 import Nav from "../Nav/Nav";
 import "../Booking/Booking.css";
 import Images from "../../images/images";
-import { useState } from "react";
 import { FirstName } from "../Form/FirstName";
 import { LastName } from "../Form/LastName";
 import { EmailAddress } from "../Form/EmailAddress";
 import { TextArea } from "../Form/TextArea";
+import { NavLink } from "react-router-dom";
 
 const Booking = () => {
-  const [open, setOpen] = useState(false);
-
   const handleSubmit = (e) => {
-    setOpen(true);
-    e.preventdefault();
-  };
-
-  const handleClose = (e) => {
-    setOpen(false);
     e.preventdefault();
   };
 
@@ -34,7 +26,7 @@ const Booking = () => {
           <p>Enter your details below to book the reservation.</p>
           <div>
             <div className="booking-container">
-              <form>
+              <form onSubmit={handleSubmit}>
                 <div className="booking-input">
                   <FirstName />
                   <LastName />
@@ -44,33 +36,14 @@ const Booking = () => {
                 </div>
               </form>
               <div className="submit-btn">
-                <button
-                  type="submit"
-                  onClick={handleSubmit}
-                  aria-label="submit button, complete all required fields before submitting"
-                >
-                  Confirm Reservation
-                </button>
-
-                {open && (
-                  <>
-                    <div className="active" id="modal">
-                      <div className="modal-header">
-                        <button
-                          type="submit"
-                          onClick={handleClose}
-                          className="close-btn"
-                        >
-                          &times;
-                        </button>
-                      </div>
-                      <div className="modal-body">
-                        Your reservation has been confirmed!
-                      </div>
-                    </div>
-                    <div className="active" id="modal-overlay"></div>
-                  </>
-                )}
+                <NavLink to="/confirmation">
+                  <button
+                    type="submit"
+                    aria-label="submit button, complete all required fields before submitting"
+                  >
+                    Confirm Reservation
+                  </button>
+                </NavLink>
               </div>
             </div>
           </div>

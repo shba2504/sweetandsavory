@@ -3,6 +3,7 @@ import Images from "../../images/images";
 import "../Reservations/Reservations.css";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
+import Footer from "../Footer/Footer";
 
 const Reservations = () => {
   const [party, setParty] = useState("");
@@ -109,6 +110,7 @@ const Reservations = () => {
           />
         </div>
       </article>
+      <Footer />
     </>
   );
 };

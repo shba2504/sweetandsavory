@@ -8,21 +8,19 @@ import { FaTwitter } from "react-icons/fa";
 const Footer = () => {
   return (
     <>
-      <article>
-        <section>
-          <div className="footer">
-            <div>
-              <img src={Images.Logo2} alt="second restaurant logo" />
-            </div>
-            <div className="socialmedia">
-              <FaFacebookF color="white" fontSize={20} className="icon1" />
-              <FaInstagram color="white" fontSize={20} className="icon2" />
-              <FaTwitter color="white" fontSize={20} className="icon3" />
-              <FaLinkedinIn color="white" fontSize={20} className="icon4" />
-            </div>
+      <footer>
+        <div className="footer">
+          <div>
+            <img src={Images.Logo2} alt="second restaurant logo" />
           </div>
-        </section>
-      </article>
+          <div className="socialmedia">
+            <FaFacebookF color="white" fontSize={20} className="icon1" />
+            <FaInstagram color="white" fontSize={20} className="icon2" />
+            <FaTwitter color="white" fontSize={20} className="icon3" />
+            <FaLinkedinIn color="white" fontSize={20} className="icon4" />
+          </div>
+        </div>
+      </footer>
     </>
   );
 };
