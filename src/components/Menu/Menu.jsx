@@ -9,7 +9,6 @@ const recipes = [
   {
     name: "Blueberry Banana French Toast",
     description: "Served on Brioche bread w/ a side of goat cheese.",
-    photo: "../../images/images/blueberryfrenchtoast",
     price: "$14",
     photoName: "src/images/blueberryfrenchtoast.jpg",
   },
