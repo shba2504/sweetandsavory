@@ -7,7 +7,7 @@ const Header = () => {
       <header>
         <article>
           <section>
-            <img src={Images.breakfastspread} alt="breakfast table spread" loading="lazy"/>
+            <img src={Images.breakfastspread} alt="breakfast table spread" />
           </section>
           <section>
             <div className="container">
