@@ -18,7 +18,6 @@ const About = () => {
               <img
                 src={Images.travelfood}
                 alt="plate of pancakes with person eating"
-                loading="lazy"
               />
               <p>
                 From chicken and waffles in the American South to Danish
@@ -32,22 +31,18 @@ const About = () => {
               <img
                 src={Images.shakshouka}
                 alt="skillet with tomato sauce and eggs"
-                loading="lazy"
               />
               <img
                 src={Images.DanishPancakes}
                 alt="Danish pancakes that look like mini-donuts and sauce"
-                loading="lazy"
               />
               <img
                 src={Images.travelfood2}
                 alt="person slicing into pancakes"
-                loading="lazy"
               />
               <img
                 src={Images.gathering}
                 alt="people toasting over plates of food"
-                loading="lazy"
               />
               <p>
                 Inspired by simple ingredients executed perfectly, Mark and Liza
@@ -61,7 +56,6 @@ const About = () => {
               <img
                 src={Images.gathering2}
                 alt="people eating over a table of food"
-                loading="lazy"
               />
             </div>
           </section>

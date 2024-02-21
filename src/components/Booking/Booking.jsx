@@ -52,7 +52,10 @@ const Booking = () => {
 
         <br />
         <div class="bottom">
-          <img src={Images.sweettoast} alt="" />
+          <img
+            src={Images.sweettoast}
+            alt="toast covered in mascarpone sauce with chocolate and fruit on top"
+          />
         </div>
       </article>
     </>

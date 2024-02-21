@@ -10,11 +10,7 @@ const AboutPreview = () => {
             <h1>Join us for breakfast!</h1>
             <div className="aboutpreview">
               <div>
-                <img
-                  src={Images.travel}
-                  alt="fold out map in a car"
-                  loading="lazy"
-                />
+                <img src={Images.travel} alt="fold out map in a car" />
               </div>
               <div className="story">
                 <h2>Our Story</h2>
