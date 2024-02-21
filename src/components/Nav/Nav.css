@@ -30,6 +30,7 @@
 
 .navbar-links li a:hover {
   color: var(--primary);
+  transition: 200ms ease-in-out;
 }
 
 .navbar-mobile {
@@ -43,6 +44,14 @@
 .navbar-mobile_links li {
   margin: 2em;
   font-family: Karla;
+}
+
+.navbar-mobile_links a:hover {
+  padding: 0.5em 1.5em;
+  background-color: var(--primary);
+  color: white;
+  transition: 250ms ease-in-out;
+  border-radius: 15px;
 }
 
 .navbar-mobile_overlay {
