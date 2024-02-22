@@ -2,7 +2,7 @@ import Nav from "../Nav/Nav";
 import "../Menu/Menu.css";
 import Footer from "../Footer/Footer";
 import { NavLink } from "react-router-dom";
-import { Menuitems } from "./Menu-items";
+import { MenuItems } from "./MenuItems";
 
 const Menu = () => {
   return (
@@ -16,7 +16,7 @@ const Menu = () => {
           <br />
           <h2 className="menu-header">Something New and Something Old</h2>
         </div>
-        <Menuitems />
+        <MenuItems />
         <br />
         <div
           className="submit-btn"

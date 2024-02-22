@@ -86,7 +86,7 @@ const recipes = [
   },
 ];
 
-export const Menuitems = () => {
+export const MenuItems = () => {
   return (
     <div>
       <div className="menu">

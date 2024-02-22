@@ -2,7 +2,7 @@ import Footer from "../Footer/Footer";
 import Nav from "../Nav/Nav";
 import { MdOutlineShoppingCart } from "react-icons/md";
 import "../OrderOnline/OrderOnline.css";
-import { Menuitems } from "../Menu/Menu-items";
+import { MenuItems } from "../Menu/MenuItems";
 
 const OrderOnline = (props) => {
   return (
@@ -16,9 +16,7 @@ const OrderOnline = (props) => {
           <div className="preview">
             <h1>Order Online</h1>
           </div>
-          <div className="order-menu">
-            <Menuitems />
-          </div>
+          <MenuItems />
         </section>
       </article>
       <Footer />
