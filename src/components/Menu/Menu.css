@@ -5,6 +5,16 @@
   gap: 3rem;
 }
 
+.menu-header {
+  display: inline - block;
+  padding: 1rem 0;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  font-weight: 500;
+  letter-spacing: 7px;
+  text-align: center;
+}
+
 .menu-items {
   list-style: none;
   display: grid;
