@@ -30,7 +30,7 @@ const Nav = () => {
               <NavLink to="/reservations">Reservations</NavLink>
             </li>
             <li>
-              <NavLink to="order">Order Online</NavLink>
+              <NavLink to="/order">Order Online</NavLink>
             </li>
 
             <li>
