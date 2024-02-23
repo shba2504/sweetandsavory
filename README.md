@@ -1,5 +1,7 @@
-Sweet and Savory Restaurant
-Description
+# Sweet and Savory Restaurant
+
+## Description
+
 The goal of this project was to test my design and coding skills by creating an app for a restaurant.
 
 I first started by creating a brand for the restaurant in Figma. I wanted to replicate the experience of producing an app for a customer. So, I designed a style guide using specific colors and fonts, as well as creating a custom logo.
