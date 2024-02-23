@@ -4,7 +4,7 @@ import { MdOutlineShoppingCart } from "react-icons/md";
 import "../OrderOnline/OrderOnline.css";
 import { MenuItems } from "../Menu/MenuItems";
 
-const OrderOnline = (props) => {
+const OrderOnline = () => {
   return (
     <>
       <Nav />
@@ -16,7 +16,9 @@ const OrderOnline = (props) => {
           <div className="preview">
             <h1>Order Online</h1>
           </div>
-          <MenuItems />
+        </section>
+        <section>
+          <div>{<MenuItems />}</div>
         </section>
       </article>
       <Footer />
