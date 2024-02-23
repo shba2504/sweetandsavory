@@ -1,1 +1,10 @@
+.cart {
+  display: none;
+}
 
+@media (max-width: 980px) {
+  .cart {
+    display: block;
+    cursor: pointer;
+  }
+}

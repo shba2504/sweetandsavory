@@ -8,9 +8,17 @@ const OrderOnline = () => {
   return (
     <>
       <Nav />
-      <MdOutlineShoppingCart
-        style={{ position: "absolute", margin: "0", fontSize: "27px" }}
-      />
+      <div className="cart">
+        <MdOutlineShoppingCart
+          style={{
+            position: "absolute",
+            top: 35,
+            right: 60,
+            margin: "0",
+            fontSize: "27px",
+          }}
+        />
+      </div>
       <article>
         <section>
           <div className="preview">
