@@ -19,16 +19,14 @@ const OrderOnline = () => {
           }}
         />
       </div>
-      <article>
-        <section>
-          <div className="preview">
-            <h1>Order Online</h1>
-          </div>
-        </section>
-        <section>
-          <div>{<MenuItems />}</div>
-        </section>
-      </article>
+      <section>
+        <div className="preview">
+          <h1>Order Online</h1>
+        </div>
+      </section>
+      <section>
+        <div>{<MenuItems />}</div>
+      </section>
       <Footer />
     </>
   );

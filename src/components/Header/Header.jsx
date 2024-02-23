@@ -5,17 +5,15 @@ const Header = () => {
   return (
     <>
       <header>
-        <article>
-          <section>
-            <img src={Images.breakfastspread} alt="breakfast table spread" />
-          </section>
-          <section>
-            <div className="container">
-              <h4>Breakfast is our favorite meal of the day.</h4>
-              <p>Let’s make it yours too.</p>
-            </div>
-          </section>
-        </article>
+        <div>
+          <img src={Images.breakfastspread} alt="breakfast table spread" />
+        </div>
+        <div>
+          <div className="container">
+            <h4>Breakfast is our favorite meal of the day.</h4>
+            <p>Let’s make it yours too.</p>
+          </div>
+        </div>
       </header>
     </>
   );

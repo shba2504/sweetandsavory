@@ -15,49 +15,47 @@ const Booking = () => {
   return (
     <>
       <Nav />
-      <article>
-        <section>
-          <div className="preview">
-            <h1>Booking</h1>
-          </div>
-        </section>
-        <section className="booking">
-          <h3>Guest Information</h3>
-          <p>Enter your details below to book the reservation.</p>
-          <div>
-            <div className="booking-container">
-              <form onSubmit={handleSubmit}>
-                <div className="booking-input">
-                  <FirstName />
-                  <LastName />
-                  <EmailAddress />
-                  <TextArea />
-                  <br />
-                </div>
-              </form>
-              <div className="submit-btn">
-                <NavLink to="/confirmation">
-                  <button
-                    type="submit"
-                    aria-label="submit button, complete all required fields before submitting"
-                  >
-                    Confirm Reservation
-                  </button>
-                </NavLink>
+      <section>
+        <div className="preview">
+          <h1>Booking</h1>
+        </div>
+      </section>
+      <section className="booking">
+        <h3>Guest Information</h3>
+        <p>Enter your details below to book the reservation.</p>
+        <div>
+          <div className="booking-container">
+            <form onSubmit={handleSubmit}>
+              <div className="booking-input">
+                <FirstName />
+                <LastName />
+                <EmailAddress />
+                <TextArea />
+                <br />
               </div>
+            </form>
+            <div className="submit-btn">
+              <NavLink to="/confirmation">
+                <button
+                  type="submit"
+                  aria-label="submit button, complete all required fields before submitting"
+                >
+                  Confirm Reservation
+                </button>
+              </NavLink>
             </div>
           </div>
-        </section>
-        <br />
-
-        <br />
-        <div class="bottom">
-          <img
-            src={Images.sweettoast}
-            alt="toast covered in mascarpone sauce with chocolate and fruit on top"
-          />
         </div>
-      </article>
+      </section>
+      <br />
+
+      <br />
+      <div class="bottom">
+        <img
+          src={Images.sweettoast}
+          alt="toast covered in mascarpone sauce with chocolate and fruit on top"
+        />
+      </div>
     </>
   );
 };
