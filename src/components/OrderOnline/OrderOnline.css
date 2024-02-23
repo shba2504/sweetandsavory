@@ -2,7 +2,23 @@
   display: none;
 }
 
-@media (max-width: 980px) {
+.menu-items {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  line-height: 1.2;
+  padding: 0.4rem 1rem;
+}
+
+@media (max-width: 950px) {
+  .menu-items {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding-left: 0;
+  }
+
   .cart {
     display: block;
     cursor: pointer;

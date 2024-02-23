@@ -29,12 +29,15 @@ const Nav = () => {
             <li>
               <NavLink to="/reservations">Reservations</NavLink>
             </li>
+            <li>
+              <NavLink to="order">Order Online</NavLink>
+            </li>
 
             <li>
               <NavLink to="/login">Log In</NavLink>
             </li>
             <li>
-              <NavLink to="/create">Create Account</NavLink>
+              <NavLink to="/create">Register</NavLink>
             </li>
           </ul>
         </div>
