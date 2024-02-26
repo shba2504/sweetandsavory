@@ -7,7 +7,7 @@ import { MenuMap } from "./MenuMap";
 const menuItems = [
   {
     name: "Blueberry Banana French Toast",
-    description: "Served on Brioche bread w/ a side of goat cheese.",
+    description: "Served on Brioche bread w/ bananas, and blueberries.",
   },
   {
     name: "Sweet Toast",
@@ -54,9 +54,9 @@ const menuItems = [
     description: "Grilled hanger steak with poached eggs and fresh tomatoes.",
   },
   {
-    name: "Belgian Waffle",
+    name: "Belgian Waffles",
     description:
-      "A fresh Belgian waffle with butter, whipped cream, and syrup.",
+      "Fresh Belgian waffles with butter, whipped cream, and additional toppings of your choice.",
   },
   {
     name: "Veggie Omelet",

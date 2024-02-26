@@ -2,104 +2,7 @@ import Footer from "../Footer/Footer";
 import Nav from "../Nav/Nav";
 import { MdOutlineShoppingCart } from "react-icons/md";
 import "../OrderOnline/OrderOnline.css";
-import Recipes from "../Recipes";
-
-const recipes = [
-  {
-    name: "Blueberry Banana French Toast",
-    description: "Served on Brioche bread w/ a side of goat cheese.",
-    price: "$14",
-    photoName: "src/images/blueberryfrenchtoast.jpg",
-    button: "Add to Cart",
-  },
-  {
-    name: "Sweet Toast",
-    description:
-      "Served with kiwi, strawberries, & blueberries, dripping in our caramel mascarpone sauce.",
-    price: "$15",
-    photoName: "src/images/sweettoast.jpg",
-    button: "Add to Cart",
-  },
-  {
-    name: "Acaí Bowl",
-    description:
-      "Build your own acaí bowl with local, fresh fruit and granola.",
-    price: "$12",
-    photoName: "src/images/acaibowl.jpg",
-    button: "Add to Cart",
-  },
-  {
-    name: "Chicken and Waffles",
-    description:
-      "Two fresh Belgian waffles with two pieces of fried chicken with butter and our special syrup.",
-    price: "$16",
-    photoName: "src/images/chickenwaffles.jpg",
-    button: "Add to Cart",
-  },
-  {
-    name: "Egg and Avocado Toast",
-    description:
-      "Freshly baked bread with avocado spread and an over-easy egg to top it all off.",
-    price: "$8",
-    photoName: "src/images/avocadotoast.jpg",
-    button: "Add to Cart",
-  },
-  {
-    name: "Shakshouka",
-    description:
-      "A North African/Middle Eastern classic with fresh tomatoes, spices, and poached eggs.",
-    price: "$12",
-    photoName: "src/images/shakshouka.jpg",
-    button: "Add to Cart",
-  },
-  {
-    name: "Buttermilk Pancakes",
-    description:
-      "Includes three pancakes with three toppings of your choice, served with butter and syrup.",
-    price: "$10",
-    photoName: "src/images/bananapancakes.jpg",
-    button: "Add to Cart",
-  },
-  {
-    name: "Eggs Benedict",
-    description:
-      "Ham and two poached eggs over a freshly-baked English muffin with Hollandaise sauce.",
-    price: "$13",
-    photoName: "src/images/eggbenedict.jpg",
-    button: "Add to Cart",
-  },
-  {
-    name: "Crêpes",
-    description:
-      "Build your crêpes with these choices: seasonal fruit, Nutella, nuts, powdered sugar, whipped cream, and syrup.",
-    price: "$10",
-    photoName: "src/images/crepes.jpg",
-    button: "Add to Cart",
-  },
-  {
-    name: "Steak and Eggs",
-    description: "Grilled hanger steak with poached eggs and fresh tomatoes.",
-    price: "$18",
-    photoName: "src/images/steakandeggs.png",
-    button: "Add to Cart",
-  },
-  {
-    name: "Belgian Waffle",
-    description:
-      "A fresh Belgian waffle with butter, whipped cream, and syrup.",
-    price: "$9",
-    photoName: "src/images/belgianwaffle.jpg",
-    button: "Add to Cart",
-  },
-  {
-    name: "Veggie Omelet",
-    description:
-      "Three scrambled eggs, spinach, red peppers, onions, avocado, potatoes with cheese.",
-    price: "$12",
-    photoName: "src/images/veggieomelet.jpg",
-    button: "Add to Cart",
-  },
-];
+import Images from "../../images/images";
 
 const OrderOnline = () => {
   return (
@@ -125,9 +28,146 @@ const OrderOnline = () => {
         <div>
           <div className="menu">
             <ul className="menu-items">
-              {recipes.map((recipe) => (
-                <Recipes recipeObj={recipe} key={recipe.name} />
-              ))}
+              <li>
+                <img src={Images.blueberryfrenchtoast} />
+                <div>
+                  <h3>Blueberry Banana French Toast</h3>
+                  <p>Served on Brioche bread w/ bananas, and blueberries.</p>
+                  <span>$14</span>
+                  <button>Add to Cart</button>
+                </div>
+              </li>
+              <li>
+                <img src={Images.sweettoast} />
+                <div>
+                  <h3>Sweet Toast</h3>
+                  <p>
+                    Served with kiwi, strawberries, & blueberries, dripping in
+                    our caramel mascarpone sauce.
+                  </p>
+                  <span>$15</span>
+                  <button>Add to Cart</button>
+                </div>
+              </li>
+              <li>
+                <img src={Images.acaibowl} />
+                <div>
+                  <h3>Acaí Bowl</h3>
+                  <p>
+                    Build your own acaí bowl with local, fresh fruit and
+                    granola.
+                  </p>
+                  <span>$12</span>
+                  <button>Add to Cart</button>
+                </div>
+              </li>
+              <li>
+                <img src={Images.chickenwaffles} />
+                <div>
+                  <h3>Chicken and Waffles</h3>
+                  <p>
+                    Two fresh Belgian waffles with two pieces of fried chicken
+                    with butter and our special syrup.
+                  </p>
+                  <span>$16</span>
+                  <button>Add to Cart</button>
+                </div>
+              </li>
+              <li>
+                <img src={Images.avocadotoast} />
+                <div>
+                  <h3>Egg and Avocado Toast</h3>
+                  <p>
+                    Freshly baked bread with avocado spread and an over-easy egg
+                    to top it all off.
+                  </p>
+                  <span>$8</span>
+                  <button>Add to Cart</button>
+                </div>
+              </li>
+              <li>
+                <img src={Images.shakshouka} />
+                <div>
+                  <h3>Shakshouka</h3>
+                  <p>
+                    A North African/Middle Eastern classic with fresh tomatoes,
+                    spices, and poached eggs.
+                  </p>
+                  <span>$12</span>
+                  <button>Add to Cart</button>
+                </div>
+              </li>
+              <li>
+                <img src={Images.bananapancakes} />
+                <div>
+                  <h3>Buttermilk Pancakes</h3>
+                  <p>
+                    Includes three pancakes with three toppings of your choice,
+                    served with butter and syrup.
+                  </p>
+                  <span>$10</span>
+                  <button>Add to Cart</button>
+                </div>
+              </li>
+              <li>
+                <img src={Images.eggbenedict} />
+                <div>
+                  <h3>Eggs Benedict</h3>
+                  <p>
+                    Ham and two poached eggs over a freshly-baked English muffin
+                    with Hollandaise sauce.
+                  </p>
+                  <span>$13</span>
+                  <button>Add to Cart</button>
+                </div>
+              </li>
+              <li>
+                <img src={Images.crepes} />
+                <div>
+                  <h3>Crêpes</h3>
+                  <p>
+                    Build your crêpes with these choices: seasonal fruit,
+                    Nutella, nuts, powdered sugar, whipped cream, and syrup.
+                  </p>
+                  <span>$10</span>
+                  <button>Add to Cart</button>
+                </div>
+              </li>
+              <li>
+                <img src={Images.steakandeggs} />
+                <div>
+                  <h3>Steak and Eggs</h3>
+                  <p>
+                    Grilled hanger steak with poached eggs and fresh tomatoes.
+                  </p>
+                  <span>$18</span>
+                  <button>Add to Cart</button>
+                </div>
+              </li>
+              <li>
+                <img src={Images.belgianwaffle} />
+                <div>
+                  <h3>Belgian Waffles</h3>
+                  <p>
+                    Fresh Belgian waffles with butter, whipped cream, and
+                    additional toppings of your choice.
+                  </p>
+                  <span>$9</span>
+                  <button>Add to Cart</button>
+                </div>
+              </li>
+              <li>
+                <img src={Images.veggieomelet} />
+                <div>
+                  <h3>Veggie Omelet</h3>
+                  <p>
+                    Three scrambled eggs, spinach, red peppers, onions, avocado,
+                    potatoes with cheese.
+                  </p>
+                  <span>$12</span>
+                  <button>Add to Cart</button>
+                </div>
+              </li>
             </ul>
           </div>
         </div>
