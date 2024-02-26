@@ -42,8 +42,7 @@ const Confirmation = () => {
           }}
         >
           <strong>*</strong> If you need to cancel your reservation, please do
-          so at least 24 hours in advance. Timely cancellations ensure that
-          others can dine with us.
+          so at least 24 hours in advance.
         </p>
       </div>
       <Footer />
