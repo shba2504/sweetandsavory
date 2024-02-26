@@ -9,7 +9,7 @@ const recipes = [
     name: "Blueberry Banana French Toast",
     description: "Served on Brioche bread w/ a side of goat cheese.",
     price: "$14",
-    photoName: "src/images/blueberryfrenchtoast.jpg",
+    photoName: "assets/blueberryfrenchtoast.jpg",
     button: "Add to Cart",
   },
   {
