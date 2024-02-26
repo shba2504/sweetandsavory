@@ -15,6 +15,11 @@
   text-align: center;
 }
 
+.menu-list {
+  text-align: center;
+  padding: 1rem;
+}
+
 @media (max-width: 950px) {
   .menu-header {
     padding: 1rem;
