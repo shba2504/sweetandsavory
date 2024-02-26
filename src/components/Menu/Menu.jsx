@@ -7,7 +7,7 @@ import { MenuMap } from "./MenuMap";
 const menuItems = [
   {
     name: "Blueberry Banana French Toast",
-    description: "Served on Brioche bread w/ bananas, and blueberries.",
+    description: "Served on Brioche bread w/ bananas and blueberries.",
   },
   {
     name: "Sweet Toast",

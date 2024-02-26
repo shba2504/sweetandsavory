@@ -32,7 +32,7 @@ const OrderOnline = () => {
                 <img src={Images.blueberryfrenchtoast} />
                 <div>
                   <h3>Blueberry Banana French Toast</h3>
-                  <p>Served on Brioche bread w/ bananas, and blueberries.</p>
+                  <p>Served on Brioche bread w/ bananas and blueberries.</p>
                   <span>$14</span>
                   <button>Add to Cart</button>
                 </div>
