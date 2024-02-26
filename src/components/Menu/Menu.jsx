@@ -93,19 +93,7 @@ const Menu = () => {
             marginBottom: "20px",
             width: "100%",
           }}
-        >
-          <NavLink to="/order">
-            <button
-              type="submit"
-              aria-label="submit button"
-              style={{
-                width: "300px",
-              }}
-            >
-              Order Delivery
-            </button>
-          </NavLink>
-        </div>
+        ></div>
         <br />
 
         <Footer />
