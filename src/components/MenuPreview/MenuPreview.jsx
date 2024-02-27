@@ -25,6 +25,11 @@ const MenuPreview = () => {
               className="items"
             />
             <img
+              src={Images.spread4}
+              alt="breakfast spread"
+              className="items"
+            />
+            <img
               src={Images.acaibowl}
               alt="acai bowl with fruit platter"
               className="items"

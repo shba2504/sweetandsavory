@@ -6,7 +6,7 @@ const AboutPreview = () => {
     <>
       <section>
         <div className="preview">
-          <h1>Join us for breakfast!</h1>
+          <h1>Come join us for breakfast!</h1>
           <div className="aboutpreview">
             <div>
               <img src={Images.travel} alt="fold out map in a car" />
@@ -16,11 +16,11 @@ const AboutPreview = () => {
               <p>
                 Sweet and Savory was born out of Mark and Liza’s passion for
                 breakfast cuisine; a passion which led them on a trip across the
-                world.{" "}
+                world.
               </p>
               <p>
                 Follow their adventures as they experience delicious breakfast
-                in the places where they originated.
+                in the places where they originated!
               </p>
             </div>
           </div>

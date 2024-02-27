@@ -1,12 +1,16 @@
 .aboutpreview {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1.5fr 1fr;
   width: 100%;
   padding: 10px;
+  align-items: center;
 }
 
 .aboutpreview img {
   width: 100%;
+  padding-top: 1em;
+  padding-bottom: 0;
+  border-radius: 10px;
 }
 
 .aboutpreview h2 {
@@ -14,6 +18,7 @@
   font-weight: lighter;
   letter-spacing: 0.3rem;
   text-align: center;
+  margin-bottom: 0.3em;
 }
 
 .aboutpreview p {
@@ -21,12 +26,13 @@
   font-weight: lighter;
   padding-left: 15px;
   text-align: center;
+  margin: 0;
 }
 
 @media (max-width: 768px) {
   .aboutpreview {
     display: grid;
     grid-template-columns: 1fr;
-    padding-top: 3em;
+    padding-top: 2em;
   }
 }
