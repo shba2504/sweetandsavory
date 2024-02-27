@@ -27,5 +27,6 @@
   .aboutpreview {
     display: grid;
     grid-template-columns: 1fr;
+    padding-top: 3em;
   }
 }
