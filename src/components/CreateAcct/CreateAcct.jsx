@@ -14,7 +14,7 @@ const CreateAcct = () => {
       <div className="preview">
         <h1>Create an Account</h1>
         <p>
-          Enter your information below to create an account or{" "}
+          Earn rewards when you create an account or{" "}
           <Link to="/login"> Log In</Link>
         </p>
       </div>
@@ -34,10 +34,7 @@ const CreateAcct = () => {
                 name="acceptedNewsletter"
                 aria-label="click checkbox to join our newsletter"
               />
-              <p>
-                Join our newsletter for more breakfast cuisine and recipes from
-                across the world!
-              </p>
+              <p>Join our monthly newsletter to view our upcoming specials!</p>
             </div>
           </form>
         </div>
