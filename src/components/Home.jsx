@@ -7,7 +7,6 @@ import Nav from "./Nav/Nav";
 const Home = () => {
   return (
     <>
-      <Nav />
       <Header />
       <MenuPreview />
       <AboutPreview />
