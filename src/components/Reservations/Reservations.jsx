@@ -1,4 +1,3 @@
-import Nav from "../Nav/Nav";
 import Images from "../../images/images";
 import "../Reservations/Reservations.css";
 import { useState } from "react";
@@ -22,7 +21,6 @@ const Reservations = () => {
 
   return (
     <>
-      <Nav />
       <section>
         <div className="preview">
           <h1>Reservations</h1>

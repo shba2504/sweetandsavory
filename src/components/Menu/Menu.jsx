@@ -1,4 +1,3 @@
-import Nav from "../Nav/Nav";
 import "../Menu/Menu.css";
 import Footer from "../Footer/Footer";
 import { NavLink } from "react-router-dom";
@@ -69,7 +68,6 @@ const Menu = () => {
   return (
     <>
       <main>
-        <Nav />
         <div className="preview">
           <h1>Our Menu</h1>
         </div>

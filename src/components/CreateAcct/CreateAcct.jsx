@@ -1,6 +1,5 @@
 import React from "react";
 import "../CreateAcct/CreateAcct.css";
-import Nav from "../Nav/Nav";
 import { Link } from "react-router-dom";
 import { FirstName } from "../Form/FirstName";
 import { LastName } from "../Form/LastName";
@@ -10,7 +9,6 @@ import { Password } from "../Form/Password";
 const CreateAcct = () => {
   return (
     <>
-      <Nav />
       <div className="preview">
         <h1>Create an Account</h1>
         <p>

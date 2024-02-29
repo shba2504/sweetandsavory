@@ -1,4 +1,3 @@
-import Nav from "../Nav/Nav";
 import Images from "../../images/images";
 import "../About/About.css";
 import Footer from "../Footer/Footer";
@@ -6,7 +5,6 @@ import Footer from "../Footer/Footer";
 const About = () => {
   return (
     <>
-      <Nav />
       <section>
         <div className="preview">
           <h1>About Us</h1>

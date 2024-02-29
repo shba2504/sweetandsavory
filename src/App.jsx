@@ -10,12 +10,14 @@ import CreateAcct from "./components/CreateAcct/CreateAcct";
 import Booking from "./components/Booking/Booking";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Confirmation from "./components/Booking/Confirmation";
+import Nav from "./components/Nav/Nav";
 
 const App = () => {
   return (
     <>
       <BrowserRouter>
         <Routes>
+          <Nav />
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="menu" element={<Menu />} />

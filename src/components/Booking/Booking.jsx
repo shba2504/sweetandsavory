@@ -1,4 +1,3 @@
-import Nav from "../Nav/Nav";
 import "../Booking/Booking.css";
 import Images from "../../images/images";
 import { FirstName } from "../Form/FirstName";
@@ -14,7 +13,6 @@ const Booking = () => {
 
   return (
     <>
-      <Nav />
       <section>
         <div className="preview">
           <h1>Booking</h1>

@@ -1,5 +1,4 @@
 import Footer from "../Footer/Footer";
-import Nav from "../Nav/Nav";
 import { MdOutlineShoppingCart } from "react-icons/md";
 import "../OrderOnline/OrderOnline.css";
 import Images from "../../images/images";
@@ -7,7 +6,6 @@ import Images from "../../images/images";
 const OrderOnline = () => {
   return (
     <>
-      <Nav />
       <div className="cart">
         <MdOutlineShoppingCart
           style={{

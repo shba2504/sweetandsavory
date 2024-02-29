@@ -1,12 +1,10 @@
 import React from "react";
-import Nav from "../Nav/Nav";
 import Footer from "../Footer/Footer";
 import { IoIosCheckmarkCircle } from "react-icons/io";
 
 const Confirmation = () => {
   return (
     <>
-      <Nav />
       <div>
         <div
           style={{
