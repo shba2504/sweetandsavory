@@ -34,7 +34,6 @@ const OrderOnline = () => {
                   <h3>Blueberry Banana French Toast</h3>
                   <p>Served on Brioche bread w/ bananas and blueberries.</p>
                   <span>$14</span>
-                  <button>Add to Cart</button>
                 </div>
               </li>
               <li>
@@ -46,7 +45,6 @@ const OrderOnline = () => {
                     our caramel mascarpone sauce.
                   </p>
                   <span>$15</span>
-                  <button>Add to Cart</button>
                 </div>
               </li>
               <li>
@@ -58,7 +56,6 @@ const OrderOnline = () => {
                     granola.
                   </p>
                   <span>$12</span>
-                  <button>Add to Cart</button>
                 </div>
               </li>
               <li>
@@ -70,7 +67,6 @@ const OrderOnline = () => {
                     with butter and our special syrup.
                   </p>
                   <span>$16</span>
-                  <button>Add to Cart</button>
                 </div>
               </li>
               <li>
@@ -82,7 +78,6 @@ const OrderOnline = () => {
                     to top it all off.
                   </p>
                   <span>$8</span>
-                  <button>Add to Cart</button>
                 </div>
               </li>
               <li>
@@ -94,7 +89,6 @@ const OrderOnline = () => {
                     spices, and poached eggs.
                   </p>
                   <span>$12</span>
-                  <button>Add to Cart</button>
                 </div>
               </li>
               <li>
@@ -106,7 +100,6 @@ const OrderOnline = () => {
                     served with butter and syrup.
                   </p>
                   <span>$10</span>
-                  <button>Add to Cart</button>
                 </div>
               </li>
               <li>
@@ -118,7 +111,6 @@ const OrderOnline = () => {
                     with Hollandaise sauce.
                   </p>
                   <span>$13</span>
-                  <button>Add to Cart</button>
                 </div>
               </li>
               <li>
@@ -130,7 +122,6 @@ const OrderOnline = () => {
                     Nutella, nuts, powdered sugar, whipped cream, and syrup.
                   </p>
                   <span>$10</span>
-                  <button>Add to Cart</button>
                 </div>
               </li>
               <li>
@@ -141,7 +132,6 @@ const OrderOnline = () => {
                     Grilled hanger steak with poached eggs and fresh tomatoes.
                   </p>
                   <span>$18</span>
-                  <button>Add to Cart</button>
                 </div>
               </li>
               <li>
@@ -153,7 +143,6 @@ const OrderOnline = () => {
                     additional toppings of your choice.
                   </p>
                   <span>$9</span>
-                  <button>Add to Cart</button>
                 </div>
               </li>
               <li>
@@ -165,7 +154,6 @@ const OrderOnline = () => {
                     potatoes with cheese.
                   </p>
                   <span>$12</span>
-                  <button>Add to Cart</button>
                 </div>
               </li>
             </ul>
