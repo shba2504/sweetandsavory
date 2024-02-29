@@ -25,8 +25,6 @@ const App = () => {
           <Route path="create" element={<CreateAcct />} />
           <Route path="booking" element={<Booking />} />
           <Route path="confirmation" element={<Confirmation />} />
-          <Route path="/" element={<Shop />} />
-          <Route path="/cart" element={<Cart />} />
         </Routes>
       </BrowserRouter>
     </>
