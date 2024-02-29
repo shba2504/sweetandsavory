@@ -14,7 +14,6 @@ import Confirmation from "./components/Booking/Confirmation";
 const App = () => {
   return (
     <>
-      <ShopContextProvider>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -30,7 +29,6 @@ const App = () => {
           <Route path="/cart" element={<Cart />} />
         </Routes>
       </BrowserRouter>
-      </ShopContextProvider>
     </>
   );
 };
