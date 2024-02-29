@@ -5,6 +5,7 @@ import { LastName } from "../Form/LastName";
 import { EmailAddress } from "../Form/EmailAddress";
 import { TextArea } from "../Form/TextArea";
 import { NavLink } from "react-router-dom";
+import Nav from "../Nav/Nav";
 
 const Booking = () => {
   const handleSubmit = (e) => {
@@ -13,6 +14,7 @@ const Booking = () => {
 
   return (
     <>
+      <Nav />
       <section>
         <div className="preview">
           <h1>Booking</h1>

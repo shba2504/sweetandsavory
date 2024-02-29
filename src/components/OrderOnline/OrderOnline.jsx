@@ -2,10 +2,12 @@ import Footer from "../Footer/Footer";
 import { MdOutlineShoppingCart } from "react-icons/md";
 import "../OrderOnline/OrderOnline.css";
 import Images from "../../images/images";
+import Nav from "../Nav/Nav";
 
 const OrderOnline = () => {
   return (
     <>
+      <Nav />
       <div className="cart">
         <MdOutlineShoppingCart
           style={{

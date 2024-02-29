@@ -2,6 +2,7 @@ import "../Menu/Menu.css";
 import Footer from "../Footer/Footer";
 import { NavLink } from "react-router-dom";
 import { MenuMap } from "./MenuMap";
+import Nav from "../Nav/Nav";
 
 const menuItems = [
   {
@@ -67,6 +68,7 @@ const menuItems = [
 const Menu = () => {
   return (
     <>
+      <Nav />
       <main>
         <div className="preview">
           <h1>Our Menu</h1>

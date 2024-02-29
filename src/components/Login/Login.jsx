@@ -3,10 +3,12 @@ import "../Login/Login.css";
 import { Link } from "react-router-dom";
 import { EmailAddress } from "../Form/EmailAddress";
 import { Password } from "../Form/Password";
+import Nav from "../Nav/Nav";
 
 const Login = () => {
   return (
     <>
+      <Nav />
       <div>
         <div className="preview">
           <h1>Welcome Back!</h1>

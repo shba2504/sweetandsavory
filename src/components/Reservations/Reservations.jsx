@@ -3,6 +3,7 @@ import "../Reservations/Reservations.css";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import Footer from "../Footer/Footer";
+import Nav from "../Nav/Nav";
 
 const Reservations = () => {
   const [party, setParty] = useState("");
@@ -21,6 +22,7 @@ const Reservations = () => {
 
   return (
     <>
+    <Nav />
       <section>
         <div className="preview">
           <h1>Reservations</h1>

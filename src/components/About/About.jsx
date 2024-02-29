@@ -1,10 +1,12 @@
 import Images from "../../images/images";
 import "../About/About.css";
 import Footer from "../Footer/Footer";
+import Nav from "../Nav/Nav";
 
 const About = () => {
   return (
     <>
+      <Nav />
       <section>
         <div className="preview">
           <h1>About Us</h1>

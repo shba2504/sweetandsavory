@@ -5,10 +5,12 @@ import { FirstName } from "../Form/FirstName";
 import { LastName } from "../Form/LastName";
 import { EmailAddress } from "../Form/EmailAddress";
 import { Password } from "../Form/Password";
+import Nav from "../Nav/Nav";
 
 const CreateAcct = () => {
   return (
     <>
+      <Nav />
       <div className="preview">
         <h1>Create an Account</h1>
         <p>
