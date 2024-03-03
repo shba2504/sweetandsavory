@@ -19,7 +19,7 @@ const Footer = () => {
             <FaTwitter color="white" fontSize={20} className="icon3" />
             <FaLinkedinIn color="white" fontSize={20} className="icon4" />
           </div>
-          <div>Handcrafted by me &#169; 2024</div>
+          <div class="copyright">Handcrafted by me &#169; 2024</div>
         </div>
       </footer>
     </>

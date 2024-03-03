@@ -29,3 +29,14 @@
 .socialmedia {
   cursor: pointer;
 }
+
+@media (max-width: 550px) {
+
+  .footer img {
+    width: 250px;
+  }
+
+  .socialmedia {
+    display: none;
+  }
+}
