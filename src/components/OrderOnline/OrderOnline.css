@@ -2,6 +2,10 @@
   display: none;
 }
 
+.menu-order {
+  overflow-x: hidden;
+}
+
 .menu-items {
   list-style: none;
   display: grid;

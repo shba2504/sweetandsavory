@@ -70,33 +70,35 @@ const Menu = () => {
     <>
       <Nav />
       <main>
-        <div className="preview">
-          <h1>Our Menu</h1>
-        </div>
-        <div>
+        <div class="menu-container">
+          <div className="preview">
+            <h1>Our Menu</h1>
+          </div>
+          <div>
+            <br />
+            <h2 className="menu-header">Something New and Something Old</h2>
+          </div>
+          <div>
+            <ul className="menu-list">
+              {menuItems.map((menuItem) => (
+                <MenuMap menuObj={menuItem} key={menuItem.name} />
+              ))}
+            </ul>
+          </div>
           <br />
-          <h2 className="menu-header">Something New and Something Old</h2>
-        </div>
-        <div>
-          <ul className="menu-list">
-            {menuItems.map((menuItem) => (
-              <MenuMap menuObj={menuItem} key={menuItem.name} />
-            ))}
-          </ul>
-        </div>
-        <br />
-        <div
-          className="submit-btn"
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            marginBottom: "20px",
-            width: "100%",
-          }}
-        ></div>
-        <br />
+          <div
+            className="submit-btn"
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              marginBottom: "20px",
+              width: "100%",
+            }}
+          ></div>
+          <br />
 
-        <Footer />
+          <Footer />
+        </div>
       </main>
     </>
   );

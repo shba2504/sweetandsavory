@@ -25,7 +25,7 @@ const OrderOnline = () => {
         </div>
       </section>
       <section>
-        <div>
+        <div className="menu-order">
           <div className="menu">
             <ul className="menu-items">
               <li>

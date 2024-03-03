@@ -19,9 +19,17 @@
 .menu-list {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   text-align: center;
+  padding: 1rem 1rem 0 1rem;
+  margin-bottom: 0;
+}
+
+.menu-container {
+  overflow-x: hidden;
+}
+
+footer {
+  overflow-y: hidden;
 }
 
 @media (max-width: 950px) {

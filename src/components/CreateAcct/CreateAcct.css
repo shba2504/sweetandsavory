@@ -50,6 +50,7 @@ input[type="checkbox"]:checked {
 }
 
 .account-page {
+  position: relative;
   overflow-x: hidden;
 }
 
