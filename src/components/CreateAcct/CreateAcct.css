@@ -29,7 +29,7 @@ input[type="checkbox"]:checked {
 }
 
 .form-container {
-  min-width: 500px;
+  min-width: 350px;
   width: 60%;
   border-radius: 20px;
 }
@@ -47,4 +47,26 @@ input[type="checkbox"]:checked {
 
 .preview p {
   font-size: 1.15rem;
+}
+
+.account-page {
+  overflow-x: hidden;
+}
+
+@media (max-width: 560px) {
+  .account {
+    font-size: 3rem;
+  }
+
+  .preview p {
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  input[type="checkbox"] {
+    right: 1.5rem;
+  }
 }
