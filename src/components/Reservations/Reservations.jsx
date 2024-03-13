@@ -27,7 +27,7 @@ const Reservations = () => {
         <div className="preview">
           <h1>Reservations</h1>
           <img
-            src="https://unsplash.com/photos/clear-glass-pitcher-and-drinking-glasses-on-brown-wooden-table-sjBYA8dAw54"
+            src={Images.exterior}
             alt="wooden table with plate and glass settings"
           />
         </div>
@@ -38,8 +38,8 @@ const Reservations = () => {
       <section>
         <div class="sidebar">
           <img
-            src="https://unsplash.com/photos/stainless-steel-spoon-on-white-ceramic-plate-neUW-U0NwCU"
-            alt="bowl of granola with pieces of granola and strawberries scattered on table"
+            src={Images.germanpancake}
+            alt="german pancake with fruits"
           />
           <form onSubmit={handleSubmit} className="reservations-container">
             <fieldset className="reservations-input">
