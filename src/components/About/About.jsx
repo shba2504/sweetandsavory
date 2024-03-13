@@ -10,7 +10,7 @@ const About = () => {
       <section>
         <div className="preview">
           <h1>About Us</h1>
-          <img src={Images.globe} alt="a half-globe" />
+          <img src="https://unsplash.com/photos/blue-earth-globe-on-table-4JL_VAgxwcU" alt="a half-globe" />
         </div>
         <section>
           <div className="about">
@@ -28,11 +28,11 @@ const About = () => {
               from all across the world.
             </p>
             <img
-              src={Images.shakshouka}
+              src="https://unsplash.com/photos/cooked-meat-with-eggs-in-skillet-rzPVSqQjjqs"
               alt="skillet with tomato sauce and eggs"
             />
             <img
-              src={Images.DanishPancakes}
+              src="https://unsplash.com/photos/three-brown-round-pastries-on-white-ceramic-plate-1HmKw7rbfoI"
               alt="Danish pancakes that look like mini-donuts and sauce"
             />
             <img src={Images.travelfood2} alt="person slicing into pancakes" />
@@ -50,7 +50,7 @@ const About = () => {
         <section>
           <div className="bottom">
             <img
-              src={Images.gathering2}
+              src="https://unsplash.com/photos/people-sitting-in-front-of-table-talking-and-eating-W3SEyZODn8U"
               alt="people eating over a table of food"
             />
           </div>
