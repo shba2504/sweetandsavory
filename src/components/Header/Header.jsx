@@ -6,7 +6,7 @@ const Header = () => {
     <>
       <header>
         <div>
-          <img src="https://unsplash.com/photos/fruit-salad-on-gray-bowls-HlNcigvUi4Q"alt="breakfast table spread" />
+          <img src={Images.breakfastspread}lt="breakfast table spread" />
         </div>
         <div>
           <div className="container">

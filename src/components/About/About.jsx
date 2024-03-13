@@ -10,7 +10,7 @@ const About = () => {
       <section>
         <div className="preview">
           <h1>About Us</h1>
-          <img src="https://unsplash.com/photos/blue-earth-globe-on-table-4JL_VAgxwcU" alt="a half-globe" />
+          <img src={Images.globe} alt="a half-globe" />
         </div>
         <section>
           <div className="about">
@@ -28,7 +28,7 @@ const About = () => {
               from all across the world.
             </p>
             <img
-              src="https://unsplash.com/photos/cooked-meat-with-eggs-in-skillet-rzPVSqQjjqs"
+              src={Images.shakshouka}
               alt="skillet with tomato sauce and eggs"
             />
             <img

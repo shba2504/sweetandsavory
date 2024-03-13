@@ -9,38 +9,38 @@ const MenuPreview = () => {
           <h1>Just a Taste</h1>
           <div className="items">
             <img
-              src="https://unsplash.com/photos/pastry-food-on-plate-j3gz0KReZbA"
+              src={Images.avocadotoast}
               alt="plate of avocado toast with poached egg"
               className="items"
             />
 
             <img
-              src="https://unsplash.com/photos/a-plate-of-food-with-asparagus-and-eggs-tGpBPnc3ZoA"
+              src={Images.eggbenedict}
               alt="plate of eggs benedict"
               className="items"
             />
             <img
-              src="https://unsplash.com/photos/toast-bread-with-blueberry-on-black-plate-zcUgjyqEwe8"
+              src={Images.blueberryfrenchtoast}
               alt="plate of French toast with blueberries"
               className="items"
             />
             <img
-              src="https://unsplash.com/photos/round-white-ceramic-plate-filled-with-waffle-hrlvr2ZlUNk"
+              src={Images.spread4}
               alt="breakfast spread"
               className="items"
             />
             <img
-              src="https://unsplash.com/photos/black-and-red-cherries-on-white-bowl-nTZOILVZuOg"
+              src={Images.acaibowl}
               alt="acai bowl with fruit platter"
               className="items"
             />
             <img
-              src="https://unsplash.com/photos/fruit-sandwich-on-a-blue-ceramic-plate-aGjP08-HbYY"
+              src={Images.spread2}
               alt="table with breakfast foods"
               className="items"
             />
             <img
-              src="https://unsplash.com/photos/brown-and-red-strawberry-cake-on-white-ceramic-plate-y4K7Ydp2z3Y"
+              src={Images.fruitpancake}
               alt="plate of pancakes with strawberries and blueberries"
               className="items"
             />
