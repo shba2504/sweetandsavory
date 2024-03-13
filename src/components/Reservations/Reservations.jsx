@@ -101,7 +101,7 @@ const Reservations = () => {
       </section>
       <div className="bottom">
         <img
-          src={Images.greenrestaurant}
+          src={Images.spread5}
           alt="restaurant interior with lots of plants"
         />
       </div>
