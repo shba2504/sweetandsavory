@@ -32,7 +32,7 @@ const About = () => {
               alt="skillet with tomato sauce and eggs"
             />
             <img
-              src="https://unsplash.com/photos/three-brown-round-pastries-on-white-ceramic-plate-1HmKw7rbfoI"
+              src={Images.DanishPancakes}
               alt="Danish pancakes that look like mini-donuts and sauce"
             />
             <img src={Images.travelfood2} alt="person slicing into pancakes" />
@@ -50,7 +50,7 @@ const About = () => {
         <section>
           <div className="bottom">
             <img
-              src="https://unsplash.com/photos/people-sitting-in-front-of-table-talking-and-eating-W3SEyZODn8U"
+              src={Images.gathering2}
               alt="people eating over a table of food"
             />
           </div>
