@@ -12,7 +12,9 @@ const Nav = () => {
     <>
       <nav className="navbar">
         <div className="logo">
-          <img src={Images.Logo} alt="half-lemon and restaurant name logo" />
+          <NavLink to="/">
+            <img src={Images.Logo} alt="half-lemon and restaurant name logo" />
+          </NavLink>
         </div>
 
         <div className="navbar-links">
