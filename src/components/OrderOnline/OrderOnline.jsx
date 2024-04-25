@@ -13,7 +13,7 @@ const OrderOnline = () => {
           style={{
             position: "absolute",
             top: 35,
-            right: 60,
+            right: 80,
             margin: "0",
             fontSize: "27px",
           }}

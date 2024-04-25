@@ -45,6 +45,9 @@ const MenuPreview = () => {
               className="items"
             />
           </div>
+          <div class="full-menu">
+            <h2>See Our Full Menu</h2>
+          </div>
         </div>
       </section>
     </>

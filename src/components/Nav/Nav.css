@@ -8,6 +8,11 @@
   width: 100%;
 }
 
+.navbar .logo {
+  display: flex;
+  align-items: center;
+}
+
 .navbar img {
   width: 250px;
 }
@@ -74,6 +79,7 @@
   .navbar-mobile {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     width: 100%;
     padding-top: 15px;
     right: 30px;

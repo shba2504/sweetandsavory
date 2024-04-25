@@ -36,6 +36,11 @@
   height: 100%;
 }
 
+.full-menu h2 {
+  font-weight: 300;
+  text-align: right;
+}
+
 @media (max-width: 600px) {
   .items {
     column-gap: 0;
