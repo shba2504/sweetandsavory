@@ -1,5 +1,6 @@
 import "../MenuPreview/MenuPreview.css";
 import Images from "../../images/images";
+import { NavLink } from "react-router-dom";
 
 const MenuPreview = () => {
   return (
@@ -46,7 +47,9 @@ const MenuPreview = () => {
             />
           </div>
           <div class="full-menu">
-            <h2>See Our Full Menu</h2>
+            <NavLink to="/menu">
+              <h2>See Our Full Menu</h2>
+            </NavLink>
           </div>
         </div>
       </section>
