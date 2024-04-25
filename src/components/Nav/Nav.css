@@ -61,7 +61,8 @@
 
 .navbar-mobile_overlay {
   display: none;
-  padding: 1em 1.5em 0.5em 1.5em;
+  padding: 4em;
+  height: 100vh;
   cursor: pointer;
   background-color: white;
 }
@@ -95,8 +96,7 @@
     text-align: center;
     position: absolute;
     width: 100%;
-    top: 20px;
-    right: 0px;
+    top: 5px;
     background-color: white;
     z-index: 5;
   }
@@ -105,5 +105,22 @@
     color: black;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
       sans-serif;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar-mobile_overlay {
+    left: 60%;
+    text-align: left;
+    padding-left: 0em;
+  }
+
+  .navbar-mobile_overlay .overlay_close {
+    left: 35%;
+    top: 10px;
+  }
+
+  .navbar-mobile_links a:hover {
+    padding: 0.4em 1em;
   }
 }
