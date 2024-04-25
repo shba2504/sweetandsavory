@@ -55,8 +55,8 @@
 
 @media (max-width: 950px) {
   .menu-items {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     gap: 2rem;
     padding-left: 1.5rem;
   }
@@ -66,5 +66,16 @@
   .cart {
     display: block;
     cursor: pointer;
+  }
+}
+
+@media (max-width: 475px) {
+  .menu-items {
+    padding-left: 0;
+  }
+
+  .menu img {
+    width: 60%;
+    aspect-ratio: 2/3;
   }
 }
